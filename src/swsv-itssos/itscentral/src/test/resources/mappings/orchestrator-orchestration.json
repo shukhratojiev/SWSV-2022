@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/orchestrator/orchestration"
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "orchestrator-orchestration-response-send-notification.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

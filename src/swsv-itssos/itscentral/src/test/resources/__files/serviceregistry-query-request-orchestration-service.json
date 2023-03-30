@@ -1,0 +1,10 @@
+{
+  "serviceDefinitionRequirement": "orchestration-service",
+  "interfaceRequirements": null,
+  "securityRequirements": null,
+  "metadataRequirements": null,
+  "versionRequirement": null,
+  "minVersionRequirement": null,
+  "maxVersionRequirement": null,
+  "pingProviders": false
+}

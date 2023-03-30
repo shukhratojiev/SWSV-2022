@@ -1,0 +1,35 @@
+{
+  "serviceQueryData": [
+    {
+      "id": 136,
+      "serviceDefinition": {
+        "id": 8,
+        "serviceDefinition": "orchestration-service",
+        "createdAt": "2020-10-18 00:18:40",
+        "updatedAt": "2020-10-18 00:18:40"
+      },
+      "provider": {
+        "id": 3,
+        "systemName": "orchestrator",
+        "address": "127.0.0.1",
+        "port": 8441,
+        "createdAt": "2020-10-18 00:18:40",
+        "updatedAt": "2020-10-18 00:18:40"
+      },
+      "serviceUri": "/orchestrator/orchestration",
+      "secure": "NOT_SECURE",
+      "version": 1,
+      "interfaces": [
+        {
+          "id": 2,
+          "interfaceName": "HTTP-INSECURE-JSON",
+          "createdAt": "2020-10-18 00:17:11",
+          "updatedAt": "2020-10-18 00:17:11"
+        }
+      ],
+      "createdAt": "2020-10-27 20:14:35",
+      "updatedAt": "2020-10-27 20:14:35"
+    }
+  ],
+  "unfilteredHits": 1
+}

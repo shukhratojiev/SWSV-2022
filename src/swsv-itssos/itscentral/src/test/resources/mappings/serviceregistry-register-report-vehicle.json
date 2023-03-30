@@ -1,0 +1,21 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/serviceregistry/register",
+    "bodyPatterns": [
+      {
+        "matchesJsonPath": {
+          "expression": "serviceDefinition",
+          "contains": "report-vehicle"
+        }
+      }
+    ]
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "serviceregistry-register-response-report-vehicle.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

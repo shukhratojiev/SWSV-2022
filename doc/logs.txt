@@ -1,0 +1,3175 @@
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/C:/Users/shukh/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/C:/Users/shukh/.m2/repository/org/apache/logging/log4j/log4j-slf4j-impl/2.13.3/log4j-slf4j-impl-2.13.3.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+12:23:10.445 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class hu.bme.mit.swsv.itssos.itscentral.ItsCentralIntegrationTest]
+12:23:10.473 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+12:23:10.502 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+12:23:10.609 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [hu.bme.mit.swsv.itssos.itscentral.ItsCentralIntegrationTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+12:23:10.642 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [hu.bme.mit.swsv.itssos.itscentral.ItsCentralIntegrationTest], using SpringBootContextLoader
+12:23:10.661 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [hu.bme.mit.swsv.itssos.itscentral.ItsCentralIntegrationTest]: class path resource [hu/bme/mit/swsv/itssos/itscentral/ItsCentralIntegrationTest-context.xml] does not exist
+12:23:10.664 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [hu.bme.mit.swsv.itssos.itscentral.ItsCentralIntegrationTest]: class path resource [hu/bme/mit/swsv/itssos/itscentral/ItsCentralIntegrationTestContext.groovy] does not exist
+12:23:10.664 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [hu.bme.mit.swsv.itssos.itscentral.ItsCentralIntegrationTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+12:23:10.667 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [hu.bme.mit.swsv.itssos.itscentral.ItsCentralIntegrationTest]: ItsCentralIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+12:23:11.203 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [C:\Users\shukh\semester\SWSV\newRepo\Verifiers-swsv-2022\src\swsv-itssos\itscentral\target\classes\hu\bme\mit\swsv\itssos\itscentral\ItsCentralMain.class]
+12:23:11.210 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration hu.bme.mit.swsv.itssos.itscentral.ItsCentralMain for test class hu.bme.mit.swsv.itssos.itscentral.ItsCentralIntegrationTest
+12:23:11.472 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [hu.bme.mit.swsv.itssos.itscentral.ItsCentralIntegrationTest]: using defaults.
+12:23:11.473 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener, org.springframework.cloud.contract.wiremock.WireMockTestExecutionListener]
+12:23:11.500 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+12:23:11.501 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+12:23:11.502 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5c45d770, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2ce6c6ec, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1bae316d, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@147a5d08, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6676f6a0, org.springframework.test.context.event.EventPublishingTestExecutionListener@7cbd9d24, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@1672fe87, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@5026735c, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1b45c0e, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@11f0a5a1, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@10f7f7de, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@73a8da0f, org.springframework.cloud.contract.wiremock.WireMockTestExecutionListener@50dfbc58]
+12:23:11.507 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [hu.bme.mit.swsv.itssos.itscentral.ItsCentralIntegrationTest]
+12:23:11.511 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [hu.bme.mit.swsv.itssos.itscentral.ItsCentralIntegrationTest]
+12:23:11.516 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [hu.bme.mit.swsv.itssos.itscentral.ItsCentralIntegrationTest]
+12:23:11.516 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [hu.bme.mit.swsv.itssos.itscentral.ItsCentralIntegrationTest]
+12:23:11.517 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [hu.bme.mit.swsv.itssos.itscentral.ItsCentralIntegrationTest]
+12:23:11.517 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [hu.bme.mit.swsv.itssos.itscentral.ItsCentralIntegrationTest]
+12:23:11.561 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [hu.bme.mit.swsv.itssos.itscentral.ItsCentralIntegrationTest]
+12:23:11.562 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [hu.bme.mit.swsv.itssos.itscentral.ItsCentralIntegrationTest]
+12:23:11.564 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [hu.bme.mit.swsv.itssos.itscentral.ItsCentralIntegrationTest]
+12:23:11.566 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [hu.bme.mit.swsv.itssos.itscentral.ItsCentralIntegrationTest]
+12:23:11.567 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [hu.bme.mit.swsv.itssos.itscentral.ItsCentralIntegrationTest]
+12:23:11.568 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [hu.bme.mit.swsv.itssos.itscentral.ItsCentralIntegrationTest]
+12:23:11.581 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@4241e0f4 testClass = ItsCentralIntegrationTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@4ebff610 testClass = ItsCentralIntegrationTest, locations = '{}', classes = '{class hu.bme.mit.swsv.itssos.itscentral.ItsCentralMain}', contextInitializerClasses = '[]', activeProfiles = '{test}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@1190200a, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@399c4be1, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@6f45df59, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@2b4bac49, org.springframework.boot.test.context.SpringBootTestArgs@1], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> false]], class annotated with @DirtiesContext [false] with mode [null].
+12:23:11.631 [main] DEBUG org.springframework.core.env.StandardEnvironment - Activating profiles [test]
+12:23:11.639 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.4.RELEASE)
+
+2022-11-06 12:23:12.401  INFO 16412 --- [           main] h.b.m.s.i.i.ItsCentralIntegrationTest    : Starting ItsCentralIntegrationTest on DESKTOP-NKVKF87 with PID 16412 (started by shukh in C:\Users\shukh\semester\SWSV\newRepo\Verifiers-swsv-2022\src\swsv-itssos\itscentral)
+2022-11-06 12:23:12.403  INFO 16412 --- [           main] h.b.m.s.i.i.ItsCentralIntegrationTest    : The following profiles are active: test
+2022-11-06 12:23:18.282  INFO 16412 --- [           main] e.a.c.s.p.c.ContainerConfiguration       : ####################################################################################
+2022-11-06 12:23:18.285  INFO 16412 --- [           main] e.a.c.s.p.c.ContainerConfiguration       : #
+2022-11-06 12:23:18.285  INFO 16412 --- [           main] e.a.c.s.p.c.ContainerConfiguration       : # TomcatCustomizer
+2022-11-06 12:23:18.285  INFO 16412 --- [           main] e.a.c.s.p.c.ContainerConfiguration       : #
+2022-11-06 12:23:18.293  INFO 16412 --- [           main] e.a.c.s.p.c.ContainerConfiguration       : # custom maxKeepAliveRequests 500
+2022-11-06 12:23:18.310  INFO 16412 --- [           main] e.a.c.s.p.c.ContainerConfiguration       : # origin keepalive timeout: 60000 ms
+2022-11-06 12:23:18.310  INFO 16412 --- [           main] e.a.c.s.p.c.ContainerConfiguration       : # keepalive timeout: 60000 ms
+2022-11-06 12:23:18.310  INFO 16412 --- [           main] e.a.c.s.p.c.ContainerConfiguration       : # connection timeout: 60000 ms
+2022-11-06 12:23:18.310  INFO 16412 --- [           main] e.a.c.s.p.c.ContainerConfiguration       : # max connections: 8192
+2022-11-06 12:23:18.311  INFO 16412 --- [           main] e.a.c.s.p.c.ContainerConfiguration       : #
+2022-11-06 12:23:18.311  INFO 16412 --- [           main] e.a.c.s.p.c.ContainerConfiguration       : ####################################################################################
+2022-11-06 12:23:18.477  INFO 16412 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2022-11-06 12:23:18.536  INFO 16412 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-06 12:23:18.536  INFO 16412 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2022-11-06 12:23:19.057  INFO 16412 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-06 12:23:19.057  INFO 16412 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6608 ms
+2022-11-06 12:23:20.407  INFO 16412 --- [           main] h.b.m.s.i.itscentral.TestHttpService     : TestHttpService.init
+2022-11-06 12:23:21.585  INFO 16412 --- [           main] .s.s.UserDetailsServiceAutoConfiguration :
+
+Using generated security password: 8cfbf652-504d-4c17-a982-38b8e8c0250f
+
+2022-11-06 12:23:22.069  INFO 16412 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@214b342f, org.springframework.security.web.context.SecurityContextPersistenceFilter@7ae590f6, org.springframework.security.web.header.HeaderWriterFilter@a316f6b, org.springframework.security.web.authentication.logout.LogoutFilter@3af236d0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@370c7cc5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4bce62b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5db0003d, org.springframework.security.web.session.SessionManagementFilter@2eb1c615, org.springframework.security.web.access.ExceptionTranslationFilter@7a572ea0]
+2022-11-06 12:23:22.485  INFO 16412 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-11-06 12:23:25.574  INFO 16412 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2022-11-06 12:23:25.577  INFO 16412 --- [           main] e.a.c.l.config.ApplicationInitListener   : Security mode: NOT SECURED
+2022-11-06 12:23:25.612  INFO 16412 --- [           main] h.b.m.s.i.i.ItsCentralIntegrationTest    : Started ItsCentralIntegrationTest in 13.963 seconds (JVM running for 16.499)
+2022-11-06 12:23:26.029 Verbose logging enabled
+2022-11-06 12:23:28.098  INFO 16412 --- [           main] wiremock.org.eclipse.jetty.util.log      : Logging initialized @18986ms to wiremock.org.eclipse.jetty.util.log.Slf4jLog
+2022-11-06 12:23:28.503 Verbose logging enabled
+2022-11-06 12:23:28.537 Verbose logging enabled
+2022-11-06 12:23:28.594  INFO 16412 --- [           main] w.org.eclipse.jetty.server.Server        : jetty-9.4.20.v20190813; built: 2019-08-13T21:28:18.144Z; git: 84700530e645e812b336747464d6fbbf370c9a20; jvm 11.0.11+9-LTS-194
+2022-11-06 12:23:28.646  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Started w.o.e.j.s.ServletContextHandler@3b8b5b40{/__admin,null,AVAILABLE}
+2022-11-06 12:23:28.652  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Started w.o.e.j.s.ServletContextHandler@71687d8f{/,null,AVAILABLE}
+2022-11-06 12:23:28.675  INFO 16412 --- [           main] w.o.e.jetty.server.AbstractConnector     : Started NetworkTrafficServerConnector@554d040d{HTTP/1.1,[http/1.1]}{0.0.0.0:8889}
+2022-11-06 12:23:28.676  INFO 16412 --- [           main] w.org.eclipse.jetty.server.Server        : Started @19563ms
+2022-11-06 12:23:28.710  INFO 16412 --- [           main] w.org.eclipse.jetty.server.Server        : jetty-9.4.20.v20190813; built: 2019-08-13T21:28:18.144Z; git: 84700530e645e812b336747464d6fbbf370c9a20; jvm 11.0.11+9-LTS-194
+2022-11-06 12:23:28.712  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Started w.o.e.j.s.ServletContextHandler@1293f8d7{/__admin,null,AVAILABLE}
+2022-11-06 12:23:28.714  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Started w.o.e.j.s.ServletContextHandler@58e5fbe5{/,null,AVAILABLE}
+2022-11-06 12:23:28.728  INFO 16412 --- [           main] w.o.e.jetty.server.AbstractConnector     : Started NetworkTrafficServerConnector@7e0883f3{HTTP/1.1,[http/1.1]}{0.0.0.0:8443}
+2022-11-06 12:23:28.728  INFO 16412 --- [           main] w.org.eclipse.jetty.server.Server        : Started @19616ms
+2022-11-06 12:23:28.735  INFO 16412 --- [           main] w.org.eclipse.jetty.server.Server        : jetty-9.4.20.v20190813; built: 2019-08-13T21:28:18.144Z; git: 84700530e645e812b336747464d6fbbf370c9a20; jvm 11.0.11+9-LTS-194
+2022-11-06 12:23:28.740  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Started w.o.e.j.s.ServletContextHandler@7891cf3{/__admin,null,AVAILABLE}
+2022-11-06 12:23:28.741  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Started w.o.e.j.s.ServletContextHandler@6bfbab1c{/,null,AVAILABLE}
+2022-11-06 12:23:28.772  INFO 16412 --- [           main] w.o.e.jetty.server.AbstractConnector     : Started NetworkTrafficServerConnector@36f05595{HTTP/1.1,[http/1.1]}{0.0.0.0:8441}
+2022-11-06 12:23:28.772  INFO 16412 --- [           main] w.org.eclipse.jetty.server.Server        : Started @19660ms
+2022-11-06 12:23:30.134  INFO 16412 --- [           main] h.b.m.s.i.i.ItsCentralIntegrationTest    : setup: START
+2022-11-06 12:23:30.160  INFO 16412 --- [           main] .c.s.p.ItsCentralApplicationInitListener : ItsCentralApplicationInitListener custom init started
+2022-11-06 12:23:30.794  INFO 16412 --- [p1180504901-131] w.o.e.j.s.handler.ContextHandler.ROOT    : RequestHandlerClass from context returned com.github.tomakehurst.wiremock.http.StubRequestHandler. Normalized mapped under returned 'null'
+2022-11-06 12:23:30.905 Warning: JSON path expression 'serviceDefinition' failed to match document 'null' because of error 'json string can not be null or empty'
+2022-11-06 12:23:30.908 Warning: JSON path expression 'serviceDefinition' failed to match document 'null' because of error 'json string can not be null or empty'
+2022-11-06 12:23:30.992 Request received:
+127.0.0.1 - GET /serviceregistry/echo
+
+Accept: [text/plain, application/json]
+Connection: [keep-alive]
+User-Agent: [Apache-HttpClient/4.5.12 (Java/11.0.11)]
+Host: [127.0.0.1:8443]
+Accept-Encoding: [gzip,deflate]
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "Got it!",
+  "headers" : {
+    "Content-Type" : "text/plain"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [text/plain]
+Matched-Stub-Id: [820ed4a7-4a24-455d-8057-8dd6c4c32870]
+
+
+2022-11-06 12:23:31.062  INFO 16412 --- [           main] e.a.c.l.config.ApplicationInitListener   : 'SERVICE_REGISTRY' core system is reachable.
+2022-11-06 12:23:31.560 Request received:
+127.0.0.1 - POST /serviceregistry/register
+
+Accept: [text/plain, application/json]
+Connection: [keep-alive]
+User-Agent: [Apache-HttpClient/4.5.12 (Java/11.0.11)]
+Host: [127.0.0.1:8443]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [310]
+Content-Type: [application/json]
+{"serviceDefinition":"report-train","providerSystem":{"systemName":"its_central","address":"127.0.0.1","port":8888,"authenticationInfo":null},"serviceUri":"/itscentral/report-train","endOfValidity":null,"secure":"NOT_SECURE","metadata":{"http-method":"POST"},"version":null,"interfaces":["HTTP-INSECURE-JSON"]}
+
+Matched response definition:
+{
+  "status" : 200,
+  "bodyFileName" : "serviceregistry-register-response-report-train.json",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+Matched-Stub-Id: [51368dd5-3f3a-4e9f-bb2d-9d0db7dc18d1]
+
+
+2022-11-06 12:23:31.601 Request received:
+127.0.0.1 - POST /serviceregistry/register
+
+Accept: [text/plain, application/json]
+Connection: [keep-alive]
+User-Agent: [Apache-HttpClient/4.5.12 (Java/11.0.11)]
+Host: [127.0.0.1:8443]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [314]
+Content-Type: [application/json]
+{"serviceDefinition":"report-vehicle","providerSystem":{"systemName":"its_central","address":"127.0.0.1","port":8888,"authenticationInfo":null},"serviceUri":"/itscentral/report-vehicle","endOfValidity":null,"secure":"NOT_SECURE","metadata":{"http-method":"POST"},"version":null,"interfaces":["HTTP-INSECURE-JSON"]}
+
+Matched response definition:
+{
+  "status" : 200,
+  "bodyFileName" : "serviceregistry-register-response-report-vehicle.json",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+Matched-Stub-Id: [1edad5ca-e579-4de1-9ce3-d8cb43968c9d]
+
+
+2022-11-06 12:23:31.651 Request received:
+127.0.0.1 - POST /serviceregistry/query
+
+Accept: [text/plain, application/json]
+Connection: [keep-alive]
+User-Agent: [Apache-HttpClient/4.5.12 (Java/11.0.11)]
+Host: [127.0.0.1:8443]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [247]
+Content-Type: [application/json]
+{"serviceDefinitionRequirement":"orchestration-service","interfaceRequirements":null,"securityRequirements":null,"metadataRequirements":null,"versionRequirement":null,"minVersionRequirement":null,"maxVersionRequirement":null,"pingProviders":false}
+
+Matched response definition:
+{
+  "status" : 200,
+  "bodyFileName" : "serviceregistry-query-response-orchestration-service.json",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+Matched-Stub-Id: [0be2df0f-9fc9-430f-89d2-a5342c05a94f]
+
+
+2022-11-06 12:23:31.675  INFO 16412 --- [p1452209410-140] w.o.e.j.s.handler.ContextHandler.ROOT    : RequestHandlerClass from context returned com.github.tomakehurst.wiremock.http.StubRequestHandler. Normalized mapped under returned 'null'
+2022-11-06 12:23:31.676 Warning: JSON path expression 'serviceDefinition' failed to match document 'null' because of error 'json string can not be null or empty'
+2022-11-06 12:23:31.677 Warning: JSON path expression 'serviceDefinition' failed to match document 'null' because of error 'json string can not be null or empty'
+2022-11-06 12:23:31.690 Request received:
+127.0.0.1 - GET /orchestrator/echo
+
+Accept: [text/plain, application/json]
+Connection: [keep-alive]
+User-Agent: [Apache-HttpClient/4.5.12 (Java/11.0.11)]
+Host: [127.0.0.1:8441]
+Accept-Encoding: [gzip,deflate]
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "Got it!",
+  "headers" : {
+    "Content-Type" : "text/plain"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [text/plain]
+Matched-Stub-Id: [62335c30-0e7b-42da-9574-16d6a27433ab]
+
+
+2022-11-06 12:23:31.697  INFO 16412 --- [           main] e.a.c.l.config.ApplicationInitListener   : 'ORCHESTRATOR' core system is reachable.
+2022-11-06 12:23:31.713 Request received:
+127.0.0.1 - POST /serviceregistry/query
+
+Accept: [text/plain, application/json]
+Connection: [keep-alive]
+User-Agent: [Apache-HttpClient/4.5.12 (Java/11.0.11)]
+Host: [127.0.0.1:8443]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [247]
+Content-Type: [application/json]
+{"serviceDefinitionRequirement":"orchestration-service","interfaceRequirements":null,"securityRequirements":null,"metadataRequirements":null,"versionRequirement":null,"minVersionRequirement":null,"maxVersionRequirement":null,"pingProviders":false}
+
+Matched response definition:
+{
+  "status" : 200,
+  "bodyFileName" : "serviceregistry-query-response-orchestration-service.json",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+Matched-Stub-Id: [0be2df0f-9fc9-430f-89d2-a5342c05a94f]
+
+
+2022-11-06 12:23:31.723  INFO 16412 --- [           main] hu.bme.mit.swsv.itssos.util.Endpoint     : Orchestration request for send-notification service:
+2022-11-06 12:23:31.799  INFO 16412 --- [           main] hu.bme.mit.swsv.itssos.util.Endpoint     : {
+  "requesterSystem" : {
+    "systemName" : "its_central",
+    "address" : "127.0.0.1",
+    "port" : 8888,
+    "authenticationInfo" : null
+  },
+  "requesterCloud" : null,
+  "requestedService" : {
+    "serviceDefinitionRequirement" : "send-notification",
+    "interfaceRequirements" : [ "HTTP-INSECURE-JSON" ],
+    "securityRequirements" : null,
+    "metadataRequirements" : null,
+    "versionRequirement" : null,
+    "minVersionRequirement" : null,
+    "maxVersionRequirement" : null,
+    "pingProviders" : false
+  },
+  "orchestrationFlags" : {
+    "onlyPreferred" : false,
+    "overrideStore" : true,
+    "externalServiceRequest" : false,
+    "enableInterCloud" : false,
+    "enableQoS" : false,
+    "matchmaking" : true,
+    "metadataSearch" : false,
+    "triggerInterCloud" : false,
+    "pingProviders" : false
+  },
+  "preferredProviders" : [ ],
+  "commands" : { },
+  "qosRequirements" : { }
+}
+2022-11-06 12:23:31.855 Request received:
+127.0.0.1 - POST /orchestrator/orchestration
+
+Accept: [text/plain, application/json]
+Connection: [keep-alive]
+User-Agent: [Apache-HttpClient/4.5.12 (Java/11.0.11)]
+Host: [127.0.0.1:8441]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [700]
+Content-Type: [application/json]
+{"requesterSystem":{"systemName":"its_central","address":"127.0.0.1","port":8888,"authenticationInfo":null},"requesterCloud":null,"requestedService":{"serviceDefinitionRequirement":"send-notification","interfaceRequirements":["HTTP-INSECURE-JSON"],"securityRequirements":null,"metadataRequirements":null,"versionRequirement":null,"minVersionRequirement":null,"maxVersionRequirement":null,"pingProviders":false},"orchestrationFlags":{"onlyPreferred":false,"overrideStore":true,"externalServiceRequest":false,"enableInterCloud":false,"enableQoS":false,"matchmaking":true,"metadataSearch":false,"triggerInterCloud":false,"pingProviders":false},"preferredProviders":[],"commands":{},"qosRequirements":{}}
+
+Matched response definition:
+{
+  "status" : 200,
+  "bodyFileName" : "orchestrator-orchestration-response-send-notification.json",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+Matched-Stub-Id: [5f6a4b33-7724-4be1-9120-95da62cebb46]
+
+
+2022-11-06 12:23:31.871  INFO 16412 --- [           main] hu.bme.mit.swsv.itssos.util.Endpoint     : Orchestration response:
+{
+  "response" : [ {
+    "provider" : {
+      "id" : 12,
+      "systemName" : "vehicle_communicator",
+      "address" : "127.0.0.1",
+      "port" : 8889,
+      "createdAt" : "2020-10-25 23:02:58",
+      "updatedAt" : "2020-10-25 23:02:58"
+    },
+    "service" : {
+      "id" : 16,
+      "serviceDefinition" : "send-notification",
+      "createdAt" : "2020-10-25 23:02:58",
+      "updatedAt" : "2020-10-25 23:02:58"
+    },
+    "serviceUri" : "/vehicle-communicator/send-notification",
+    "secure" : "NOT_SECURE",
+    "metadata" : {
+      "http-method" : "POST"
+    },
+    "interfaces" : [ {
+      "id" : 2,
+      "interfaceName" : "HTTP-INSECURE-JSON",
+      "createdAt" : "2020-10-18 00:17:11",
+      "updatedAt" : "2020-10-18 00:17:11"
+    } ],
+    "version" : 1,
+    "authorizationTokens" : null,
+    "warnings" : [ "TTL_UNKNOWN" ]
+  } ]
+}
+2022-11-06 12:23:31.875  INFO 16412 --- [           main] h.b.m.s.i.i.ItsCentralIntegrationTest    : setup: END
+2022-11-06 12:23:31.879  INFO 16412 --- [           main] h.b.m.s.i.i.ItsCentralIntegrationTest    : testMultipleVehiclesInIntersection: START
+2022-11-06 12:23:32.139  INFO 16412 --- [0.1-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-06 12:23:32.139  INFO 16412 --- [0.1-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-06 12:23:32.191  INFO 16412 --- [0.1-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 52 ms
+2022-11-06 12:23:32.321  INFO 16412 --- [0.1-8888-exec-1] h.b.m.s.i.i.ItsCentralController         : ReportVehicleRequestDto{registrationNumber='1', message=ARRIVING}
+2022-11-06 12:23:32.378  INFO 16412 --- [0.1-8888-exec-2] h.b.m.s.i.i.ItsCentralController         : ReportVehicleRequestDto{registrationNumber='1', message=ARRIVING}
+2022-11-06 12:23:32.394  INFO 16412 --- [0.1-8888-exec-3] h.b.m.s.i.i.ItsCentralController         : ReportVehicleRequestDto{registrationNumber='3', message=ARRIVING}
+2022-11-06 12:23:32.433  INFO 16412 --- [0.1-8888-exec-4] h.b.m.s.i.i.ItsCentralController         : ReportVehicleRequestDto{registrationNumber='4', message=ARRIVING}
+2022-11-06 12:23:32.839  INFO 16412 --- [           main] h.b.m.s.i.i.ItsCentralIntegrationTest    : SendStopToCarAfterDetect: END
+2022-11-06 12:23:32.886  INFO 16412 --- [           main] w.o.e.jetty.server.AbstractConnector     : Stopped NetworkTrafficServerConnector@36f05595{HTTP/1.1,[http/1.1]}{0.0.0.0:8441}
+2022-11-06 12:23:32.888  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Stopped w.o.e.j.s.ServletContextHandler@6bfbab1c{/,null,UNAVAILABLE}
+2022-11-06 12:23:32.888  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Stopped w.o.e.j.s.ServletContextHandler@7891cf3{/__admin,null,UNAVAILABLE}
+2022-11-06 12:23:32.890  INFO 16412 --- [           main] w.o.e.jetty.server.AbstractConnector     : Stopped NetworkTrafficServerConnector@7e0883f3{HTTP/1.1,[http/1.1]}{0.0.0.0:8443}
+2022-11-06 12:23:32.890  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Stopped w.o.e.j.s.ServletContextHandler@58e5fbe5{/,null,UNAVAILABLE}
+2022-11-06 12:23:32.891  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Stopped w.o.e.j.s.ServletContextHandler@1293f8d7{/__admin,null,UNAVAILABLE}
+2022-11-06 12:23:32.893  INFO 16412 --- [           main] w.o.e.jetty.server.AbstractConnector     : Stopped NetworkTrafficServerConnector@554d040d{HTTP/1.1,[http/1.1]}{0.0.0.0:8889}
+2022-11-06 12:23:32.894  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Stopped w.o.e.j.s.ServletContextHandler@71687d8f{/,null,UNAVAILABLE}
+2022-11-06 12:23:32.894  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Stopped w.o.e.j.s.ServletContextHandler@3b8b5b40{/__admin,null,UNAVAILABLE}
+2022-11-06 12:23:32.896 Verbose logging enabled
+2022-11-06 12:23:32.915 Verbose logging enabled
+2022-11-06 12:23:32.933 Verbose logging enabled
+2022-11-06 12:23:32.951  INFO 16412 --- [           main] w.org.eclipse.jetty.server.Server        : jetty-9.4.20.v20190813; built: 2019-08-13T21:28:18.144Z; git: 84700530e645e812b336747464d6fbbf370c9a20; jvm 11.0.11+9-LTS-194
+2022-11-06 12:23:32.954  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Started w.o.e.j.s.ServletContextHandler@27ac3b6d{/__admin,null,AVAILABLE}
+2022-11-06 12:23:32.955  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Started w.o.e.j.s.ServletContextHandler@598f1faf{/,null,AVAILABLE}
+2022-11-06 12:23:32.961  INFO 16412 --- [           main] w.o.e.jetty.server.AbstractConnector     : Started NetworkTrafficServerConnector@4154ecd3{HTTP/1.1,[http/1.1]}{0.0.0.0:8889}
+2022-11-06 12:23:32.961  INFO 16412 --- [           main] w.org.eclipse.jetty.server.Server        : Started @23849ms
+2022-11-06 12:23:32.965  INFO 16412 --- [           main] w.org.eclipse.jetty.server.Server        : jetty-9.4.20.v20190813; built: 2019-08-13T21:28:18.144Z; git: 84700530e645e812b336747464d6fbbf370c9a20; jvm 11.0.11+9-LTS-194
+2022-11-06 12:23:32.968  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Started w.o.e.j.s.ServletContextHandler@694f0655{/__admin,null,AVAILABLE}
+2022-11-06 12:23:32.969  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Started w.o.e.j.s.ServletContextHandler@3b11deb6{/,null,AVAILABLE}
+2022-11-06 12:23:32.974  INFO 16412 --- [           main] w.o.e.jetty.server.AbstractConnector     : Started NetworkTrafficServerConnector@7d4135c9{HTTP/1.1,[http/1.1]}{0.0.0.0:8443}
+2022-11-06 12:23:32.974  INFO 16412 --- [           main] w.org.eclipse.jetty.server.Server        : Started @23862ms
+2022-11-06 12:23:32.978  INFO 16412 --- [           main] w.org.eclipse.jetty.server.Server        : jetty-9.4.20.v20190813; built: 2019-08-13T21:28:18.144Z; git: 84700530e645e812b336747464d6fbbf370c9a20; jvm 11.0.11+9-LTS-194
+2022-11-06 12:23:32.984  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Started w.o.e.j.s.ServletContextHandler@7c59cf66{/__admin,null,AVAILABLE}
+2022-11-06 12:23:32.986  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Started w.o.e.j.s.ServletContextHandler@6bb71265{/,null,AVAILABLE}
+2022-11-06 12:23:32.991  INFO 16412 --- [           main] w.o.e.jetty.server.AbstractConnector     : Started NetworkTrafficServerConnector@578c99ac{HTTP/1.1,[http/1.1]}{0.0.0.0:8441}
+2022-11-06 12:23:32.991  INFO 16412 --- [           main] w.org.eclipse.jetty.server.Server        : Started @23880ms
+2022-11-06 12:23:33.004  INFO 16412 --- [           main] h.b.m.s.i.i.ItsCentralIntegrationTest    : setup: START
+2022-11-06 12:23:33.005  INFO 16412 --- [           main] .c.s.p.ItsCentralApplicationInitListener : ItsCentralApplicationInitListener custom init started
+2022-11-06 12:23:33.012  INFO 16412 --- [qtp49731785-160] w.o.e.j.s.handler.ContextHandler.ROOT    : RequestHandlerClass from context returned com.github.tomakehurst.wiremock.http.StubRequestHandler. Normalized mapped under returned 'null'
+2022-11-06 12:23:33.012 Warning: JSON path expression 'serviceDefinition' failed to match document 'null' because of error 'json string can not be null or empty'
+2022-11-06 12:23:33.016 Warning: JSON path expression 'serviceDefinition' failed to match document 'null' because of error 'json string can not be null or empty'
+2022-11-06 12:23:33.024 Request received:
+127.0.0.1 - GET /serviceregistry/echo
+
+Accept: [text/plain, application/json]
+Connection: [keep-alive]
+User-Agent: [Apache-HttpClient/4.5.12 (Java/11.0.11)]
+Host: [127.0.0.1:8443]
+Accept-Encoding: [gzip,deflate]
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "Got it!",
+  "headers" : {
+    "Content-Type" : "text/plain"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [text/plain]
+Matched-Stub-Id: [56f43042-d122-4fc1-9c8c-b6423464a256]
+
+
+2022-11-06 12:23:33.026  INFO 16412 --- [           main] e.a.c.l.config.ApplicationInitListener   : 'SERVICE_REGISTRY' core system is reachable.
+2022-11-06 12:23:33.041 Request received:
+127.0.0.1 - POST /serviceregistry/register
+
+Accept: [text/plain, application/json]
+Connection: [keep-alive]
+User-Agent: [Apache-HttpClient/4.5.12 (Java/11.0.11)]
+Host: [127.0.0.1:8443]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [310]
+Content-Type: [application/json]
+{"serviceDefinition":"report-train","providerSystem":{"systemName":"its_central","address":"127.0.0.1","port":8888,"authenticationInfo":null},"serviceUri":"/itscentral/report-train","endOfValidity":null,"secure":"NOT_SECURE","metadata":{"http-method":"POST"},"version":null,"interfaces":["HTTP-INSECURE-JSON"]}
+
+Matched response definition:
+{
+  "status" : 200,
+  "bodyFileName" : "serviceregistry-register-response-report-train.json",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+Matched-Stub-Id: [5b640d73-ec56-42c5-834b-9ce1554d757d]
+
+
+2022-11-06 12:23:33.061 Request received:
+127.0.0.1 - POST /serviceregistry/register
+
+Accept: [text/plain, application/json]
+Connection: [keep-alive]
+User-Agent: [Apache-HttpClient/4.5.12 (Java/11.0.11)]
+Host: [127.0.0.1:8443]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [314]
+Content-Type: [application/json]
+{"serviceDefinition":"report-vehicle","providerSystem":{"systemName":"its_central","address":"127.0.0.1","port":8888,"authenticationInfo":null},"serviceUri":"/itscentral/report-vehicle","endOfValidity":null,"secure":"NOT_SECURE","metadata":{"http-method":"POST"},"version":null,"interfaces":["HTTP-INSECURE-JSON"]}
+
+Matched response definition:
+{
+  "status" : 200,
+  "bodyFileName" : "serviceregistry-register-response-report-vehicle.json",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+Matched-Stub-Id: [04bb3a39-7d49-4646-a9cd-df3d528a4047]
+
+
+2022-11-06 12:23:33.084 Request received:
+127.0.0.1 - POST /serviceregistry/query
+
+Accept: [text/plain, application/json]
+Connection: [keep-alive]
+User-Agent: [Apache-HttpClient/4.5.12 (Java/11.0.11)]
+Host: [127.0.0.1:8443]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [247]
+Content-Type: [application/json]
+{"serviceDefinitionRequirement":"orchestration-service","interfaceRequirements":null,"securityRequirements":null,"metadataRequirements":null,"versionRequirement":null,"minVersionRequirement":null,"maxVersionRequirement":null,"pingProviders":false}
+
+Matched response definition:
+{
+  "status" : 200,
+  "bodyFileName" : "serviceregistry-query-response-orchestration-service.json",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+Matched-Stub-Id: [e8d0681e-308c-4d99-821a-31ea41ab0b2a]
+
+
+2022-11-06 12:23:33.094  INFO 16412 --- [tp108946059-167] w.o.e.j.s.handler.ContextHandler.ROOT    : RequestHandlerClass from context returned com.github.tomakehurst.wiremock.http.StubRequestHandler. Normalized mapped under returned 'null'
+2022-11-06 12:23:33.095 Warning: JSON path expression 'serviceDefinition' failed to match document 'null' because of error 'json string can not be null or empty'
+2022-11-06 12:23:33.095 Warning: JSON path expression 'serviceDefinition' failed to match document 'null' because of error 'json string can not be null or empty'
+2022-11-06 12:23:33.107 Request received:
+127.0.0.1 - GET /orchestrator/echo
+
+Accept: [text/plain, application/json]
+Connection: [keep-alive]
+User-Agent: [Apache-HttpClient/4.5.12 (Java/11.0.11)]
+Host: [127.0.0.1:8441]
+Accept-Encoding: [gzip,deflate]
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "Got it!",
+  "headers" : {
+    "Content-Type" : "text/plain"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [text/plain]
+Matched-Stub-Id: [13090c48-eca0-40d3-a1f7-544eccc6baa1]
+
+
+2022-11-06 12:23:33.110  INFO 16412 --- [           main] e.a.c.l.config.ApplicationInitListener   : 'ORCHESTRATOR' core system is reachable.
+2022-11-06 12:23:33.124 Request received:
+127.0.0.1 - POST /serviceregistry/query
+
+Accept: [text/plain, application/json]
+Connection: [keep-alive]
+User-Agent: [Apache-HttpClient/4.5.12 (Java/11.0.11)]
+Host: [127.0.0.1:8443]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [247]
+Content-Type: [application/json]
+{"serviceDefinitionRequirement":"orchestration-service","interfaceRequirements":null,"securityRequirements":null,"metadataRequirements":null,"versionRequirement":null,"minVersionRequirement":null,"maxVersionRequirement":null,"pingProviders":false}
+
+Matched response definition:
+{
+  "status" : 200,
+  "bodyFileName" : "serviceregistry-query-response-orchestration-service.json",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+Matched-Stub-Id: [e8d0681e-308c-4d99-821a-31ea41ab0b2a]
+
+
+2022-11-06 12:23:33.127  INFO 16412 --- [           main] hu.bme.mit.swsv.itssos.util.Endpoint     : Orchestration request for send-notification service:
+2022-11-06 12:23:33.129  INFO 16412 --- [           main] hu.bme.mit.swsv.itssos.util.Endpoint     : {
+  "requesterSystem" : {
+    "systemName" : "its_central",
+    "address" : "127.0.0.1",
+    "port" : 8888,
+    "authenticationInfo" : null
+  },
+  "requesterCloud" : null,
+  "requestedService" : {
+    "serviceDefinitionRequirement" : "send-notification",
+    "interfaceRequirements" : [ "HTTP-INSECURE-JSON" ],
+    "securityRequirements" : null,
+    "metadataRequirements" : null,
+    "versionRequirement" : null,
+    "minVersionRequirement" : null,
+    "maxVersionRequirement" : null,
+    "pingProviders" : false
+  },
+  "orchestrationFlags" : {
+    "onlyPreferred" : false,
+    "overrideStore" : true,
+    "externalServiceRequest" : false,
+    "enableInterCloud" : false,
+    "enableQoS" : false,
+    "matchmaking" : true,
+    "metadataSearch" : false,
+    "triggerInterCloud" : false,
+    "pingProviders" : false
+  },
+  "preferredProviders" : [ ],
+  "commands" : { },
+  "qosRequirements" : { }
+}
+2022-11-06 12:23:33.179 Request received:
+127.0.0.1 - POST /orchestrator/orchestration
+
+Accept: [text/plain, application/json]
+Connection: [keep-alive]
+User-Agent: [Apache-HttpClient/4.5.12 (Java/11.0.11)]
+Host: [127.0.0.1:8441]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [700]
+Content-Type: [application/json]
+{"requesterSystem":{"systemName":"its_central","address":"127.0.0.1","port":8888,"authenticationInfo":null},"requesterCloud":null,"requestedService":{"serviceDefinitionRequirement":"send-notification","interfaceRequirements":["HTTP-INSECURE-JSON"],"securityRequirements":null,"metadataRequirements":null,"versionRequirement":null,"minVersionRequirement":null,"maxVersionRequirement":null,"pingProviders":false},"orchestrationFlags":{"onlyPreferred":false,"overrideStore":true,"externalServiceRequest":false,"enableInterCloud":false,"enableQoS":false,"matchmaking":true,"metadataSearch":false,"triggerInterCloud":false,"pingProviders":false},"preferredProviders":[],"commands":{},"qosRequirements":{}}
+
+Matched response definition:
+{
+  "status" : 200,
+  "bodyFileName" : "orchestrator-orchestration-response-send-notification.json",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+Matched-Stub-Id: [7ea98077-032f-49d0-8154-3a799639e2c0]
+
+
+2022-11-06 12:23:33.189  INFO 16412 --- [           main] hu.bme.mit.swsv.itssos.util.Endpoint     : Orchestration response:
+{
+  "response" : [ {
+    "provider" : {
+      "id" : 12,
+      "systemName" : "vehicle_communicator",
+      "address" : "127.0.0.1",
+      "port" : 8889,
+      "createdAt" : "2020-10-25 23:02:58",
+      "updatedAt" : "2020-10-25 23:02:58"
+    },
+    "service" : {
+      "id" : 16,
+      "serviceDefinition" : "send-notification",
+      "createdAt" : "2020-10-25 23:02:58",
+      "updatedAt" : "2020-10-25 23:02:58"
+    },
+    "serviceUri" : "/vehicle-communicator/send-notification",
+    "secure" : "NOT_SECURE",
+    "metadata" : {
+      "http-method" : "POST"
+    },
+    "interfaces" : [ {
+      "id" : 2,
+      "interfaceName" : "HTTP-INSECURE-JSON",
+      "createdAt" : "2020-10-18 00:17:11",
+      "updatedAt" : "2020-10-18 00:17:11"
+    } ],
+    "version" : 1,
+    "authorizationTokens" : null,
+    "warnings" : [ "TTL_UNKNOWN" ]
+  } ]
+}
+2022-11-06 12:23:33.190  INFO 16412 --- [           main] h.b.m.s.i.i.ItsCentralIntegrationTest    : setup: END
+2022-11-06 12:23:33.190  INFO 16412 --- [           main] h.b.m.s.i.i.ItsCentralIntegrationTest    : testProximityRegister: START
+2022-11-06 12:23:33.205  INFO 16412 --- [0.1-8888-exec-5] h.b.m.s.i.i.ItsCentralController         : ReportTrainRequestDto{sensor=PROXIMITY, message=REGISTER}
+2022-11-06 12:23:33.217  INFO 16412 --- [0.1-8888-exec-5] hu.bme.mit.swsv.itssos.util.Endpoint     : Request:
+{
+  "registrationNumber" : null,
+  "level" : "PASS_SLOWLY"
+}
+2022-11-06 12:23:33.231  INFO 16412 --- [p2129236490-152] w.o.e.j.s.handler.ContextHandler.ROOT    : RequestHandlerClass from context returned com.github.tomakehurst.wiremock.http.StubRequestHandler. Normalized mapped under returned 'null'
+2022-11-06 12:23:33.238 Request received:
+127.0.0.1 - POST /vehicle-communicator/send-notification
+
+Accept: [text/plain, application/json]
+Connection: [keep-alive]
+User-Agent: [Apache-HttpClient/4.5.12 (Java/11.0.11)]
+Host: [127.0.0.1:8889]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [49]
+Content-Type: [application/json]
+{"registrationNumber":null,"level":"PASS_SLOWLY"}
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "OK"
+}
+
+Response:
+HTTP/1.1 200
+Matched-Stub-Id: [937948ea-04ca-4c0f-a58b-8dae98e29ca1]
+
+
+2022-11-06 12:23:33.246  INFO 16412 --- [0.1-8888-exec-5] hu.bme.mit.swsv.itssos.util.Endpoint     : Provider response:
+"OK"
+2022-11-06 12:23:33.258  INFO 16412 --- [           main] h.b.m.s.i.i.ItsCentralIntegrationTest    : testProximityRegister: END
+2022-11-06 12:23:33.268  INFO 16412 --- [           main] w.o.e.jetty.server.AbstractConnector     : Stopped NetworkTrafficServerConnector@578c99ac{HTTP/1.1,[http/1.1]}{0.0.0.0:8441}
+2022-11-06 12:23:33.269  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Stopped w.o.e.j.s.ServletContextHandler@6bb71265{/,null,UNAVAILABLE}
+2022-11-06 12:23:33.270  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Stopped w.o.e.j.s.ServletContextHandler@7c59cf66{/__admin,null,UNAVAILABLE}
+2022-11-06 12:23:33.273  INFO 16412 --- [           main] w.o.e.jetty.server.AbstractConnector     : Stopped NetworkTrafficServerConnector@7d4135c9{HTTP/1.1,[http/1.1]}{0.0.0.0:8443}
+2022-11-06 12:23:33.273  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Stopped w.o.e.j.s.ServletContextHandler@3b11deb6{/,null,UNAVAILABLE}
+2022-11-06 12:23:33.273  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Stopped w.o.e.j.s.ServletContextHandler@694f0655{/__admin,null,UNAVAILABLE}
+2022-11-06 12:23:33.277  INFO 16412 --- [           main] w.o.e.jetty.server.AbstractConnector     : Stopped NetworkTrafficServerConnector@4154ecd3{HTTP/1.1,[http/1.1]}{0.0.0.0:8889}
+2022-11-06 12:23:33.277  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Stopped w.o.e.j.s.ServletContextHandler@598f1faf{/,null,UNAVAILABLE}
+2022-11-06 12:23:33.278  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Stopped w.o.e.j.s.ServletContextHandler@27ac3b6d{/__admin,null,UNAVAILABLE}
+2022-11-06 12:23:33.279 Verbose logging enabled
+2022-11-06 12:23:33.301 Verbose logging enabled
+2022-11-06 12:23:33.326 Verbose logging enabled
+2022-11-06 12:23:33.377  INFO 16412 --- [           main] w.org.eclipse.jetty.server.Server        : jetty-9.4.20.v20190813; built: 2019-08-13T21:28:18.144Z; git: 84700530e645e812b336747464d6fbbf370c9a20; jvm 11.0.11+9-LTS-194
+2022-11-06 12:23:33.380  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Started w.o.e.j.s.ServletContextHandler@109188b4{/__admin,null,AVAILABLE}
+2022-11-06 12:23:33.382  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Started w.o.e.j.s.ServletContextHandler@7091a016{/,null,AVAILABLE}
+2022-11-06 12:23:33.406  INFO 16412 --- [           main] w.o.e.jetty.server.AbstractConnector     : Started NetworkTrafficServerConnector@71ac5723{HTTP/1.1,[http/1.1]}{0.0.0.0:8889}
+2022-11-06 12:23:33.406  INFO 16412 --- [           main] w.org.eclipse.jetty.server.Server        : Started @24294ms
+2022-11-06 12:23:33.424  INFO 16412 --- [           main] w.org.eclipse.jetty.server.Server        : jetty-9.4.20.v20190813; built: 2019-08-13T21:28:18.144Z; git: 84700530e645e812b336747464d6fbbf370c9a20; jvm 11.0.11+9-LTS-194
+2022-11-06 12:23:33.425  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Started w.o.e.j.s.ServletContextHandler@4281a26f{/__admin,null,AVAILABLE}
+2022-11-06 12:23:33.427  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Started w.o.e.j.s.ServletContextHandler@726e29d{/,null,AVAILABLE}
+2022-11-06 12:23:33.432  INFO 16412 --- [           main] w.o.e.jetty.server.AbstractConnector     : Started NetworkTrafficServerConnector@1164990a{HTTP/1.1,[http/1.1]}{0.0.0.0:8443}
+2022-11-06 12:23:33.433  INFO 16412 --- [           main] w.org.eclipse.jetty.server.Server        : Started @24320ms
+2022-11-06 12:23:33.435  INFO 16412 --- [           main] w.org.eclipse.jetty.server.Server        : jetty-9.4.20.v20190813; built: 2019-08-13T21:28:18.144Z; git: 84700530e645e812b336747464d6fbbf370c9a20; jvm 11.0.11+9-LTS-194
+2022-11-06 12:23:33.437  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Started w.o.e.j.s.ServletContextHandler@391b03b{/__admin,null,AVAILABLE}
+2022-11-06 12:23:33.437  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Started w.o.e.j.s.ServletContextHandler@4a977146{/,null,AVAILABLE}
+2022-11-06 12:23:33.442  INFO 16412 --- [           main] w.o.e.jetty.server.AbstractConnector     : Started NetworkTrafficServerConnector@811d8d6{HTTP/1.1,[http/1.1]}{0.0.0.0:8441}
+2022-11-06 12:23:33.442  INFO 16412 --- [           main] w.org.eclipse.jetty.server.Server        : Started @24331ms
+2022-11-06 12:23:33.449  INFO 16412 --- [           main] h.b.m.s.i.i.ItsCentralIntegrationTest    : setup: START
+2022-11-06 12:23:33.450  INFO 16412 --- [           main] .c.s.p.ItsCentralApplicationInitListener : ItsCentralApplicationInitListener custom init started
+2022-11-06 12:23:33.455  INFO 16412 --- [p1351198507-187] w.o.e.j.s.handler.ContextHandler.ROOT    : RequestHandlerClass from context returned com.github.tomakehurst.wiremock.http.StubRequestHandler. Normalized mapped under returned 'null'
+2022-11-06 12:23:33.456 Warning: JSON path expression 'serviceDefinition' failed to match document 'null' because of error 'json string can not be null or empty'
+2022-11-06 12:23:33.457 Warning: JSON path expression 'serviceDefinition' failed to match document 'null' because of error 'json string can not be null or empty'
+2022-11-06 12:23:33.469 Request received:
+127.0.0.1 - GET /serviceregistry/echo
+
+Accept: [text/plain, application/json]
+Connection: [keep-alive]
+User-Agent: [Apache-HttpClient/4.5.12 (Java/11.0.11)]
+Host: [127.0.0.1:8443]
+Accept-Encoding: [gzip,deflate]
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "Got it!",
+  "headers" : {
+    "Content-Type" : "text/plain"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [text/plain]
+Matched-Stub-Id: [96b8843a-ae7a-4db0-b072-e70eb4f5150b]
+
+
+2022-11-06 12:23:33.472  INFO 16412 --- [           main] e.a.c.l.config.ApplicationInitListener   : 'SERVICE_REGISTRY' core system is reachable.
+2022-11-06 12:23:33.484 Request received:
+127.0.0.1 - POST /serviceregistry/register
+
+Accept: [text/plain, application/json]
+Connection: [keep-alive]
+User-Agent: [Apache-HttpClient/4.5.12 (Java/11.0.11)]
+Host: [127.0.0.1:8443]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [310]
+Content-Type: [application/json]
+{"serviceDefinition":"report-train","providerSystem":{"systemName":"its_central","address":"127.0.0.1","port":8888,"authenticationInfo":null},"serviceUri":"/itscentral/report-train","endOfValidity":null,"secure":"NOT_SECURE","metadata":{"http-method":"POST"},"version":null,"interfaces":["HTTP-INSECURE-JSON"]}
+
+Matched response definition:
+{
+  "status" : 200,
+  "bodyFileName" : "serviceregistry-register-response-report-train.json",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+Matched-Stub-Id: [5dac36e0-8fbe-454d-94a6-fff5fc3e7e5c]
+
+
+2022-11-06 12:23:33.498 Request received:
+127.0.0.1 - POST /serviceregistry/register
+
+Accept: [text/plain, application/json]
+Connection: [keep-alive]
+User-Agent: [Apache-HttpClient/4.5.12 (Java/11.0.11)]
+Host: [127.0.0.1:8443]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [314]
+Content-Type: [application/json]
+{"serviceDefinition":"report-vehicle","providerSystem":{"systemName":"its_central","address":"127.0.0.1","port":8888,"authenticationInfo":null},"serviceUri":"/itscentral/report-vehicle","endOfValidity":null,"secure":"NOT_SECURE","metadata":{"http-method":"POST"},"version":null,"interfaces":["HTTP-INSECURE-JSON"]}
+
+Matched response definition:
+{
+  "status" : 200,
+  "bodyFileName" : "serviceregistry-register-response-report-vehicle.json",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+Matched-Stub-Id: [4e677b14-067e-4b56-ac16-68e6825c8a77]
+
+
+2022-11-06 12:23:33.515 Request received:
+127.0.0.1 - POST /serviceregistry/query
+
+Accept: [text/plain, application/json]
+Connection: [keep-alive]
+User-Agent: [Apache-HttpClient/4.5.12 (Java/11.0.11)]
+Host: [127.0.0.1:8443]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [247]
+Content-Type: [application/json]
+{"serviceDefinitionRequirement":"orchestration-service","interfaceRequirements":null,"securityRequirements":null,"metadataRequirements":null,"versionRequirement":null,"minVersionRequirement":null,"maxVersionRequirement":null,"pingProviders":false}
+
+Matched response definition:
+{
+  "status" : 200,
+  "bodyFileName" : "serviceregistry-query-response-orchestration-service.json",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+Matched-Stub-Id: [cfadd68d-1986-4a31-ade3-e329575dfe85]
+
+
+2022-11-06 12:23:33.527  INFO 16412 --- [p1473758481-195] w.o.e.j.s.handler.ContextHandler.ROOT    : RequestHandlerClass from context returned com.github.tomakehurst.wiremock.http.StubRequestHandler. Normalized mapped under returned 'null'
+2022-11-06 12:23:33.528 Warning: JSON path expression 'serviceDefinition' failed to match document 'null' because of error 'json string can not be null or empty'
+2022-11-06 12:23:33.530 Warning: JSON path expression 'serviceDefinition' failed to match document 'null' because of error 'json string can not be null or empty'
+2022-11-06 12:23:33.538 Request received:
+127.0.0.1 - GET /orchestrator/echo
+
+Accept: [text/plain, application/json]
+Connection: [keep-alive]
+User-Agent: [Apache-HttpClient/4.5.12 (Java/11.0.11)]
+Host: [127.0.0.1:8441]
+Accept-Encoding: [gzip,deflate]
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "Got it!",
+  "headers" : {
+    "Content-Type" : "text/plain"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [text/plain]
+Matched-Stub-Id: [b99d73fd-47eb-49b4-b310-0bd316a37a95]
+
+
+2022-11-06 12:23:33.541  INFO 16412 --- [           main] e.a.c.l.config.ApplicationInitListener   : 'ORCHESTRATOR' core system is reachable.
+2022-11-06 12:23:33.554 Request received:
+127.0.0.1 - POST /serviceregistry/query
+
+Accept: [text/plain, application/json]
+Connection: [keep-alive]
+User-Agent: [Apache-HttpClient/4.5.12 (Java/11.0.11)]
+Host: [127.0.0.1:8443]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [247]
+Content-Type: [application/json]
+{"serviceDefinitionRequirement":"orchestration-service","interfaceRequirements":null,"securityRequirements":null,"metadataRequirements":null,"versionRequirement":null,"minVersionRequirement":null,"maxVersionRequirement":null,"pingProviders":false}
+
+Matched response definition:
+{
+  "status" : 200,
+  "bodyFileName" : "serviceregistry-query-response-orchestration-service.json",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+Matched-Stub-Id: [cfadd68d-1986-4a31-ade3-e329575dfe85]
+
+
+2022-11-06 12:23:33.559  INFO 16412 --- [           main] hu.bme.mit.swsv.itssos.util.Endpoint     : Orchestration request for send-notification service:
+2022-11-06 12:23:33.561  INFO 16412 --- [           main] hu.bme.mit.swsv.itssos.util.Endpoint     : {
+  "requesterSystem" : {
+    "systemName" : "its_central",
+    "address" : "127.0.0.1",
+    "port" : 8888,
+    "authenticationInfo" : null
+  },
+  "requesterCloud" : null,
+  "requestedService" : {
+    "serviceDefinitionRequirement" : "send-notification",
+    "interfaceRequirements" : [ "HTTP-INSECURE-JSON" ],
+    "securityRequirements" : null,
+    "metadataRequirements" : null,
+    "versionRequirement" : null,
+    "minVersionRequirement" : null,
+    "maxVersionRequirement" : null,
+    "pingProviders" : false
+  },
+  "orchestrationFlags" : {
+    "onlyPreferred" : false,
+    "overrideStore" : true,
+    "externalServiceRequest" : false,
+    "enableInterCloud" : false,
+    "enableQoS" : false,
+    "matchmaking" : true,
+    "metadataSearch" : false,
+    "triggerInterCloud" : false,
+    "pingProviders" : false
+  },
+  "preferredProviders" : [ ],
+  "commands" : { },
+  "qosRequirements" : { }
+}
+2022-11-06 12:23:33.572 Request received:
+127.0.0.1 - POST /orchestrator/orchestration
+
+Accept: [text/plain, application/json]
+Connection: [keep-alive]
+User-Agent: [Apache-HttpClient/4.5.12 (Java/11.0.11)]
+Host: [127.0.0.1:8441]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [700]
+Content-Type: [application/json]
+{"requesterSystem":{"systemName":"its_central","address":"127.0.0.1","port":8888,"authenticationInfo":null},"requesterCloud":null,"requestedService":{"serviceDefinitionRequirement":"send-notification","interfaceRequirements":["HTTP-INSECURE-JSON"],"securityRequirements":null,"metadataRequirements":null,"versionRequirement":null,"minVersionRequirement":null,"maxVersionRequirement":null,"pingProviders":false},"orchestrationFlags":{"onlyPreferred":false,"overrideStore":true,"externalServiceRequest":false,"enableInterCloud":false,"enableQoS":false,"matchmaking":true,"metadataSearch":false,"triggerInterCloud":false,"pingProviders":false},"preferredProviders":[],"commands":{},"qosRequirements":{}}
+
+Matched response definition:
+{
+  "status" : 200,
+  "bodyFileName" : "orchestrator-orchestration-response-send-notification.json",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+Matched-Stub-Id: [76a5e120-f190-484c-b752-da1c63db7314]
+
+
+2022-11-06 12:23:33.577  INFO 16412 --- [           main] hu.bme.mit.swsv.itssos.util.Endpoint     : Orchestration response:
+{
+  "response" : [ {
+    "provider" : {
+      "id" : 12,
+      "systemName" : "vehicle_communicator",
+      "address" : "127.0.0.1",
+      "port" : 8889,
+      "createdAt" : "2020-10-25 23:02:58",
+      "updatedAt" : "2020-10-25 23:02:58"
+    },
+    "service" : {
+      "id" : 16,
+      "serviceDefinition" : "send-notification",
+      "createdAt" : "2020-10-25 23:02:58",
+      "updatedAt" : "2020-10-25 23:02:58"
+    },
+    "serviceUri" : "/vehicle-communicator/send-notification",
+    "secure" : "NOT_SECURE",
+    "metadata" : {
+      "http-method" : "POST"
+    },
+    "interfaces" : [ {
+      "id" : 2,
+      "interfaceName" : "HTTP-INSECURE-JSON",
+      "createdAt" : "2020-10-18 00:17:11",
+      "updatedAt" : "2020-10-18 00:17:11"
+    } ],
+    "version" : 1,
+    "authorizationTokens" : null,
+    "warnings" : [ "TTL_UNKNOWN" ]
+  } ]
+}
+2022-11-06 12:23:33.577  INFO 16412 --- [           main] h.b.m.s.i.i.ItsCentralIntegrationTest    : setup: END
+2022-11-06 12:23:33.577  INFO 16412 --- [           main] h.b.m.s.i.i.ItsCentralIntegrationTest    : IgnoreRegisterIfAlreadyRegistered: START
+2022-11-06 12:23:33.587  INFO 16412 --- [0.1-8888-exec-6] h.b.m.s.i.i.ItsCentralController         : ReportVehicleRequestDto{registrationNumber='1', message=ARRIVING}
+2022-11-06 12:23:33.601  INFO 16412 --- [0.1-8888-exec-7] h.b.m.s.i.i.ItsCentralController         : ReportTrainRequestDto{sensor=PROXIMITY, message=REGISTER}
+2022-11-06 12:23:33.602  INFO 16412 --- [0.1-8888-exec-7] hu.bme.mit.swsv.itssos.util.Endpoint     : Request:
+{
+  "registrationNumber" : null,
+  "level" : "PASS_SLOWLY"
+}
+2022-11-06 12:23:33.607  INFO 16412 --- [p1098041703-175] w.o.e.j.s.handler.ContextHandler.ROOT    : RequestHandlerClass from context returned com.github.tomakehurst.wiremock.http.StubRequestHandler. Normalized mapped under returned 'null'
+2022-11-06 12:23:33.616 Request received:
+127.0.0.1 - POST /vehicle-communicator/send-notification
+
+Accept: [text/plain, application/json]
+Connection: [keep-alive]
+User-Agent: [Apache-HttpClient/4.5.12 (Java/11.0.11)]
+Host: [127.0.0.1:8889]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [49]
+Content-Type: [application/json]
+{"registrationNumber":null,"level":"PASS_SLOWLY"}
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "OK"
+}
+
+Response:
+HTTP/1.1 200
+Matched-Stub-Id: [738d5a52-a487-4490-955f-26625c0eda1b]
+
+
+2022-11-06 12:23:33.619  INFO 16412 --- [0.1-8888-exec-7] hu.bme.mit.swsv.itssos.util.Endpoint     : Provider response:
+"OK"
+2022-11-06 12:23:33.629  INFO 16412 --- [           main] h.b.m.s.i.i.ItsCentralIntegrationTest    : IgnoreRegisterIfAlreadyRegistered: END
+2022-11-06 12:23:33.637  INFO 16412 --- [           main] w.o.e.jetty.server.AbstractConnector     : Stopped NetworkTrafficServerConnector@811d8d6{HTTP/1.1,[http/1.1]}{0.0.0.0:8441}
+2022-11-06 12:23:33.637  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Stopped w.o.e.j.s.ServletContextHandler@4a977146{/,null,UNAVAILABLE}
+2022-11-06 12:23:33.637  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Stopped w.o.e.j.s.ServletContextHandler@391b03b{/__admin,null,UNAVAILABLE}
+2022-11-06 12:23:33.642  INFO 16412 --- [           main] w.o.e.jetty.server.AbstractConnector     : Stopped NetworkTrafficServerConnector@1164990a{HTTP/1.1,[http/1.1]}{0.0.0.0:8443}
+2022-11-06 12:23:33.642  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Stopped w.o.e.j.s.ServletContextHandler@726e29d{/,null,UNAVAILABLE}
+2022-11-06 12:23:33.642  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Stopped w.o.e.j.s.ServletContextHandler@4281a26f{/__admin,null,UNAVAILABLE}
+2022-11-06 12:23:33.644  INFO 16412 --- [           main] w.o.e.jetty.server.AbstractConnector     : Stopped NetworkTrafficServerConnector@71ac5723{HTTP/1.1,[http/1.1]}{0.0.0.0:8889}
+2022-11-06 12:23:33.644  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Stopped w.o.e.j.s.ServletContextHandler@7091a016{/,null,UNAVAILABLE}
+2022-11-06 12:23:33.645  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Stopped w.o.e.j.s.ServletContextHandler@109188b4{/__admin,null,UNAVAILABLE}
+2022-11-06 12:23:33.646 Verbose logging enabled
+2022-11-06 12:23:33.669 Verbose logging enabled
+2022-11-06 12:23:33.691 Verbose logging enabled
+2022-11-06 12:23:33.712  INFO 16412 --- [           main] w.org.eclipse.jetty.server.Server        : jetty-9.4.20.v20190813; built: 2019-08-13T21:28:18.144Z; git: 84700530e645e812b336747464d6fbbf370c9a20; jvm 11.0.11+9-LTS-194
+2022-11-06 12:23:33.716  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Started w.o.e.j.s.ServletContextHandler@1e9f48d4{/__admin,null,AVAILABLE}
+2022-11-06 12:23:33.718  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Started w.o.e.j.s.ServletContextHandler@7b9d602c{/,null,AVAILABLE}
+2022-11-06 12:23:33.725  INFO 16412 --- [           main] w.o.e.jetty.server.AbstractConnector     : Started NetworkTrafficServerConnector@2daf0cc9{HTTP/1.1,[http/1.1]}{0.0.0.0:8889}
+2022-11-06 12:23:33.725  INFO 16412 --- [           main] w.org.eclipse.jetty.server.Server        : Started @24613ms
+2022-11-06 12:23:33.728  INFO 16412 --- [           main] w.org.eclipse.jetty.server.Server        : jetty-9.4.20.v20190813; built: 2019-08-13T21:28:18.144Z; git: 84700530e645e812b336747464d6fbbf370c9a20; jvm 11.0.11+9-LTS-194
+2022-11-06 12:23:33.730  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Started w.o.e.j.s.ServletContextHandler@2fa4888c{/__admin,null,AVAILABLE}
+2022-11-06 12:23:33.731  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Started w.o.e.j.s.ServletContextHandler@121f9c52{/,null,AVAILABLE}
+2022-11-06 12:23:33.740  INFO 16412 --- [           main] w.o.e.jetty.server.AbstractConnector     : Started NetworkTrafficServerConnector@1f6d3a81{HTTP/1.1,[http/1.1]}{0.0.0.0:8443}
+2022-11-06 12:23:33.740  INFO 16412 --- [           main] w.org.eclipse.jetty.server.Server        : Started @24628ms
+2022-11-06 12:23:33.744  INFO 16412 --- [           main] w.org.eclipse.jetty.server.Server        : jetty-9.4.20.v20190813; built: 2019-08-13T21:28:18.144Z; git: 84700530e645e812b336747464d6fbbf370c9a20; jvm 11.0.11+9-LTS-194
+2022-11-06 12:23:33.746  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Started w.o.e.j.s.ServletContextHandler@7bbd0006{/__admin,null,AVAILABLE}
+2022-11-06 12:23:33.748  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Started w.o.e.j.s.ServletContextHandler@2fd05b15{/,null,AVAILABLE}
+2022-11-06 12:23:33.755  INFO 16412 --- [           main] w.o.e.jetty.server.AbstractConnector     : Started NetworkTrafficServerConnector@61ec2cb5{HTTP/1.1,[http/1.1]}{0.0.0.0:8441}
+2022-11-06 12:23:33.755  INFO 16412 --- [           main] w.org.eclipse.jetty.server.Server        : Started @24643ms
+2022-11-06 12:23:33.761  INFO 16412 --- [           main] h.b.m.s.i.i.ItsCentralIntegrationTest    : setup: START
+2022-11-06 12:23:33.764  INFO 16412 --- [           main] .c.s.p.ItsCentralApplicationInitListener : ItsCentralApplicationInitListener custom init started
+2022-11-06 12:23:33.775  INFO 16412 --- [tp569429143-213] w.o.e.j.s.handler.ContextHandler.ROOT    : RequestHandlerClass from context returned com.github.tomakehurst.wiremock.http.StubRequestHandler. Normalized mapped under returned 'null'
+2022-11-06 12:23:33.776 Warning: JSON path expression 'serviceDefinition' failed to match document 'null' because of error 'json string can not be null or empty'
+2022-11-06 12:23:33.782 Warning: JSON path expression 'serviceDefinition' failed to match document 'null' because of error 'json string can not be null or empty'
+2022-11-06 12:23:33.793 Request received:
+127.0.0.1 - GET /serviceregistry/echo
+
+Accept: [text/plain, application/json]
+Connection: [keep-alive]
+User-Agent: [Apache-HttpClient/4.5.12 (Java/11.0.11)]
+Host: [127.0.0.1:8443]
+Accept-Encoding: [gzip,deflate]
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "Got it!",
+  "headers" : {
+    "Content-Type" : "text/plain"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [text/plain]
+Matched-Stub-Id: [668d90bb-7f51-4ea4-a041-89dfcfd8aa7a]
+
+
+2022-11-06 12:23:33.802  INFO 16412 --- [           main] e.a.c.l.config.ApplicationInitListener   : 'SERVICE_REGISTRY' core system is reachable.
+2022-11-06 12:23:33.818 Request received:
+127.0.0.1 - POST /serviceregistry/register
+
+Accept: [text/plain, application/json]
+Connection: [keep-alive]
+User-Agent: [Apache-HttpClient/4.5.12 (Java/11.0.11)]
+Host: [127.0.0.1:8443]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [310]
+Content-Type: [application/json]
+{"serviceDefinition":"report-train","providerSystem":{"systemName":"its_central","address":"127.0.0.1","port":8888,"authenticationInfo":null},"serviceUri":"/itscentral/report-train","endOfValidity":null,"secure":"NOT_SECURE","metadata":{"http-method":"POST"},"version":null,"interfaces":["HTTP-INSECURE-JSON"]}
+
+Matched response definition:
+{
+  "status" : 200,
+  "bodyFileName" : "serviceregistry-register-response-report-train.json",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+Matched-Stub-Id: [d0432534-aabe-4cd6-9796-81b7cdc610d3]
+
+
+2022-11-06 12:23:33.883 Request received:
+127.0.0.1 - POST /serviceregistry/register
+
+Accept: [text/plain, application/json]
+Connection: [keep-alive]
+User-Agent: [Apache-HttpClient/4.5.12 (Java/11.0.11)]
+Host: [127.0.0.1:8443]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [314]
+Content-Type: [application/json]
+{"serviceDefinition":"report-vehicle","providerSystem":{"systemName":"its_central","address":"127.0.0.1","port":8888,"authenticationInfo":null},"serviceUri":"/itscentral/report-vehicle","endOfValidity":null,"secure":"NOT_SECURE","metadata":{"http-method":"POST"},"version":null,"interfaces":["HTTP-INSECURE-JSON"]}
+
+Matched response definition:
+{
+  "status" : 200,
+  "bodyFileName" : "serviceregistry-register-response-report-vehicle.json",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+Matched-Stub-Id: [b3edeb9e-1820-4934-8c23-b3c6e3ef0fca]
+
+
+2022-11-06 12:23:33.924 Request received:
+127.0.0.1 - POST /serviceregistry/query
+
+Accept: [text/plain, application/json]
+Connection: [keep-alive]
+User-Agent: [Apache-HttpClient/4.5.12 (Java/11.0.11)]
+Host: [127.0.0.1:8443]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [247]
+Content-Type: [application/json]
+{"serviceDefinitionRequirement":"orchestration-service","interfaceRequirements":null,"securityRequirements":null,"metadataRequirements":null,"versionRequirement":null,"minVersionRequirement":null,"maxVersionRequirement":null,"pingProviders":false}
+
+Matched response definition:
+{
+  "status" : 200,
+  "bodyFileName" : "serviceregistry-query-response-orchestration-service.json",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+Matched-Stub-Id: [fcb7edb2-f2f5-4938-a25e-907100d0f229]
+
+
+2022-11-06 12:23:33.942  INFO 16412 --- [tp385228898-221] w.o.e.j.s.handler.ContextHandler.ROOT    : RequestHandlerClass from context returned com.github.tomakehurst.wiremock.http.StubRequestHandler. Normalized mapped under returned 'null'
+2022-11-06 12:23:33.943 Warning: JSON path expression 'serviceDefinition' failed to match document 'null' because of error 'json string can not be null or empty'
+2022-11-06 12:23:33.944 Warning: JSON path expression 'serviceDefinition' failed to match document 'null' because of error 'json string can not be null or empty'
+2022-11-06 12:23:33.952 Request received:
+127.0.0.1 - GET /orchestrator/echo
+
+Accept: [text/plain, application/json]
+Connection: [keep-alive]
+User-Agent: [Apache-HttpClient/4.5.12 (Java/11.0.11)]
+Host: [127.0.0.1:8441]
+Accept-Encoding: [gzip,deflate]
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "Got it!",
+  "headers" : {
+    "Content-Type" : "text/plain"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [text/plain]
+Matched-Stub-Id: [aa866238-43b2-430f-8e95-9a9f31d0dc15]
+
+
+2022-11-06 12:23:33.957  INFO 16412 --- [           main] e.a.c.l.config.ApplicationInitListener   : 'ORCHESTRATOR' core system is reachable.
+2022-11-06 12:23:33.970 Request received:
+127.0.0.1 - POST /serviceregistry/query
+
+Accept: [text/plain, application/json]
+Connection: [keep-alive]
+User-Agent: [Apache-HttpClient/4.5.12 (Java/11.0.11)]
+Host: [127.0.0.1:8443]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [247]
+Content-Type: [application/json]
+{"serviceDefinitionRequirement":"orchestration-service","interfaceRequirements":null,"securityRequirements":null,"metadataRequirements":null,"versionRequirement":null,"minVersionRequirement":null,"maxVersionRequirement":null,"pingProviders":false}
+
+Matched response definition:
+{
+  "status" : 200,
+  "bodyFileName" : "serviceregistry-query-response-orchestration-service.json",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+Matched-Stub-Id: [fcb7edb2-f2f5-4938-a25e-907100d0f229]
+
+
+2022-11-06 12:23:33.983  INFO 16412 --- [           main] hu.bme.mit.swsv.itssos.util.Endpoint     : Orchestration request for send-notification service:
+2022-11-06 12:23:33.986  INFO 16412 --- [           main] hu.bme.mit.swsv.itssos.util.Endpoint     : {
+  "requesterSystem" : {
+    "systemName" : "its_central",
+    "address" : "127.0.0.1",
+    "port" : 8888,
+    "authenticationInfo" : null
+  },
+  "requesterCloud" : null,
+  "requestedService" : {
+    "serviceDefinitionRequirement" : "send-notification",
+    "interfaceRequirements" : [ "HTTP-INSECURE-JSON" ],
+    "securityRequirements" : null,
+    "metadataRequirements" : null,
+    "versionRequirement" : null,
+    "minVersionRequirement" : null,
+    "maxVersionRequirement" : null,
+    "pingProviders" : false
+  },
+  "orchestrationFlags" : {
+    "onlyPreferred" : false,
+    "overrideStore" : true,
+    "externalServiceRequest" : false,
+    "enableInterCloud" : false,
+    "enableQoS" : false,
+    "matchmaking" : true,
+    "metadataSearch" : false,
+    "triggerInterCloud" : false,
+    "pingProviders" : false
+  },
+  "preferredProviders" : [ ],
+  "commands" : { },
+  "qosRequirements" : { }
+}
+2022-11-06 12:23:34.005 Request received:
+127.0.0.1 - POST /orchestrator/orchestration
+
+Accept: [text/plain, application/json]
+Connection: [keep-alive]
+User-Agent: [Apache-HttpClient/4.5.12 (Java/11.0.11)]
+Host: [127.0.0.1:8441]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [700]
+Content-Type: [application/json]
+{"requesterSystem":{"systemName":"its_central","address":"127.0.0.1","port":8888,"authenticationInfo":null},"requesterCloud":null,"requestedService":{"serviceDefinitionRequirement":"send-notification","interfaceRequirements":["HTTP-INSECURE-JSON"],"securityRequirements":null,"metadataRequirements":null,"versionRequirement":null,"minVersionRequirement":null,"maxVersionRequirement":null,"pingProviders":false},"orchestrationFlags":{"onlyPreferred":false,"overrideStore":true,"externalServiceRequest":false,"enableInterCloud":false,"enableQoS":false,"matchmaking":true,"metadataSearch":false,"triggerInterCloud":false,"pingProviders":false},"preferredProviders":[],"commands":{},"qosRequirements":{}}
+
+Matched response definition:
+{
+  "status" : 200,
+  "bodyFileName" : "orchestrator-orchestration-response-send-notification.json",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+Matched-Stub-Id: [fdb105e8-3ae6-4ab3-90e6-fa939efda909]
+
+
+2022-11-06 12:23:34.011  INFO 16412 --- [           main] hu.bme.mit.swsv.itssos.util.Endpoint     : Orchestration response:
+{
+  "response" : [ {
+    "provider" : {
+      "id" : 12,
+      "systemName" : "vehicle_communicator",
+      "address" : "127.0.0.1",
+      "port" : 8889,
+      "createdAt" : "2020-10-25 23:02:58",
+      "updatedAt" : "2020-10-25 23:02:58"
+    },
+    "service" : {
+      "id" : 16,
+      "serviceDefinition" : "send-notification",
+      "createdAt" : "2020-10-25 23:02:58",
+      "updatedAt" : "2020-10-25 23:02:58"
+    },
+    "serviceUri" : "/vehicle-communicator/send-notification",
+    "secure" : "NOT_SECURE",
+    "metadata" : {
+      "http-method" : "POST"
+    },
+    "interfaces" : [ {
+      "id" : 2,
+      "interfaceName" : "HTTP-INSECURE-JSON",
+      "createdAt" : "2020-10-18 00:17:11",
+      "updatedAt" : "2020-10-18 00:17:11"
+    } ],
+    "version" : 1,
+    "authorizationTokens" : null,
+    "warnings" : [ "TTL_UNKNOWN" ]
+  } ]
+}
+2022-11-06 12:23:34.011  INFO 16412 --- [           main] h.b.m.s.i.i.ItsCentralIntegrationTest    : setup: END
+2022-11-06 12:23:34.011  INFO 16412 --- [           main] h.b.m.s.i.i.ItsCentralIntegrationTest    : IgnoreNotificationIfNotChangeTheLevel: START
+2022-11-06 12:23:34.024  INFO 16412 --- [0.1-8888-exec-8] h.b.m.s.i.i.ItsCentralController         : ReportVehicleRequestDto{registrationNumber='1', message=ARRIVING}
+2022-11-06 12:23:34.033  INFO 16412 --- [0.1-8888-exec-9] h.b.m.s.i.i.ItsCentralController         : ReportTrainRequestDto{sensor=PROXIMITY, message=ARRIVING}
+2022-11-06 12:23:34.034  INFO 16412 --- [0.1-8888-exec-9] hu.bme.mit.swsv.itssos.util.Endpoint     : Request:
+{
+  "registrationNumber" : null,
+  "level" : "STOP"
+}
+2022-11-06 12:23:34.040  INFO 16412 --- [tp171022894-206] w.o.e.j.s.handler.ContextHandler.ROOT    : RequestHandlerClass from context returned com.github.tomakehurst.wiremock.http.StubRequestHandler. Normalized mapped under returned 'null'
+2022-11-06 12:23:34.048 Request received:
+127.0.0.1 - POST /vehicle-communicator/send-notification
+
+Accept: [text/plain, application/json]
+Connection: [keep-alive]
+User-Agent: [Apache-HttpClient/4.5.12 (Java/11.0.11)]
+Host: [127.0.0.1:8889]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [42]
+Content-Type: [application/json]
+{"registrationNumber":null,"level":"STOP"}
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "OK"
+}
+
+Response:
+HTTP/1.1 200
+Matched-Stub-Id: [4e3f7eb1-45ab-4ae5-a576-125639e2bed7]
+
+
+2022-11-06 12:23:34.052  INFO 16412 --- [0.1-8888-exec-9] hu.bme.mit.swsv.itssos.util.Endpoint     : Provider response:
+"OK"
+2022-11-06 12:23:34.060  INFO 16412 --- [.1-8888-exec-10] h.b.m.s.i.i.ItsCentralController         : ReportTrainRequestDto{sensor=PROXIMITY, message=ARRIVING}
+2022-11-06 12:23:34.061  INFO 16412 --- [.1-8888-exec-10] hu.bme.mit.swsv.itssos.util.Endpoint     : Request:
+{
+  "registrationNumber" : null,
+  "level" : "STOP"
+}
+2022-11-06 12:23:34.075 Request received:
+127.0.0.1 - POST /vehicle-communicator/send-notification
+
+Accept: [text/plain, application/json]
+Connection: [keep-alive]
+User-Agent: [Apache-HttpClient/4.5.12 (Java/11.0.11)]
+Host: [127.0.0.1:8889]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [42]
+Content-Type: [application/json]
+{"registrationNumber":null,"level":"STOP"}
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "OK"
+}
+
+Response:
+HTTP/1.1 200
+Matched-Stub-Id: [4e3f7eb1-45ab-4ae5-a576-125639e2bed7]
+
+
+2022-11-06 12:23:34.077  INFO 16412 --- [.1-8888-exec-10] hu.bme.mit.swsv.itssos.util.Endpoint     : Provider response:
+"OK"
+2022-11-06 12:23:34.090  INFO 16412 --- [0.1-8888-exec-1] h.b.m.s.i.i.ItsCentralController         : ReportTrainRequestDto{sensor=PROXIMITY, message=LEFT}
+2022-11-06 12:23:34.091  INFO 16412 --- [0.1-8888-exec-1] hu.bme.mit.swsv.itssos.util.Endpoint     : Request:
+{
+  "registrationNumber" : null,
+  "level" : "PASS_SLOWLY"
+}
+2022-11-06 12:23:34.108 Request received:
+127.0.0.1 - POST /vehicle-communicator/send-notification
+
+Accept: [text/plain, application/json]
+Connection: [keep-alive]
+User-Agent: [Apache-HttpClient/4.5.12 (Java/11.0.11)]
+Host: [127.0.0.1:8889]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [49]
+Content-Type: [application/json]
+{"registrationNumber":null,"level":"PASS_SLOWLY"}
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "OK"
+}
+
+Response:
+HTTP/1.1 200
+Matched-Stub-Id: [4e3f7eb1-45ab-4ae5-a576-125639e2bed7]
+
+
+2022-11-06 12:23:34.115  INFO 16412 --- [0.1-8888-exec-1] hu.bme.mit.swsv.itssos.util.Endpoint     : Provider response:
+"OK"
+2022-11-06 12:23:34.126  INFO 16412 --- [0.1-8888-exec-2] h.b.m.s.i.i.ItsCentralController         : ReportTrainRequestDto{sensor=PROXIMITY, message=LEFT}
+2022-11-06 12:23:34.127  INFO 16412 --- [0.1-8888-exec-2] hu.bme.mit.swsv.itssos.util.Endpoint     : Request:
+{
+  "registrationNumber" : null,
+  "level" : "PASS_SLOWLY"
+}
+2022-11-06 12:23:34.140 Request received:
+127.0.0.1 - POST /vehicle-communicator/send-notification
+
+Accept: [text/plain, application/json]
+Connection: [keep-alive]
+User-Agent: [Apache-HttpClient/4.5.12 (Java/11.0.11)]
+Host: [127.0.0.1:8889]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [49]
+Content-Type: [application/json]
+{"registrationNumber":null,"level":"PASS_SLOWLY"}
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "OK"
+}
+
+Response:
+HTTP/1.1 200
+Matched-Stub-Id: [4e3f7eb1-45ab-4ae5-a576-125639e2bed7]
+
+
+2022-11-06 12:23:34.148  INFO 16412 --- [0.1-8888-exec-2] hu.bme.mit.swsv.itssos.util.Endpoint     : Provider response:
+"OK"
+2022-11-06 12:23:34.165  INFO 16412 --- [0.1-8888-exec-3] h.b.m.s.i.i.ItsCentralController         : ReportTrainRequestDto{sensor=TIMETABLE, message=ARRIVING}
+2022-11-06 12:23:34.165  INFO 16412 --- [0.1-8888-exec-3] hu.bme.mit.swsv.itssos.util.Endpoint     : Request:
+{
+  "registrationNumber" : null,
+  "level" : "TRAIN_MIGHT_ARRIVE"
+}
+2022-11-06 12:23:34.175 Request received:
+127.0.0.1 - POST /vehicle-communicator/send-notification
+
+Accept: [text/plain, application/json]
+Connection: [keep-alive]
+User-Agent: [Apache-HttpClient/4.5.12 (Java/11.0.11)]
+Host: [127.0.0.1:8889]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [56]
+Content-Type: [application/json]
+{"registrationNumber":null,"level":"TRAIN_MIGHT_ARRIVE"}
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "OK"
+}
+
+Response:
+HTTP/1.1 200
+Matched-Stub-Id: [4e3f7eb1-45ab-4ae5-a576-125639e2bed7]
+
+
+2022-11-06 12:23:34.177  INFO 16412 --- [0.1-8888-exec-3] hu.bme.mit.swsv.itssos.util.Endpoint     : Provider response:
+"OK"
+2022-11-06 12:23:34.198  INFO 16412 --- [           main] h.b.m.s.i.i.ItsCentralIntegrationTest    : IgnoreNotificationIfNotChangeTheLevel: END
+2022-11-06 12:23:34.205  INFO 16412 --- [           main] w.o.e.jetty.server.AbstractConnector     : Stopped NetworkTrafficServerConnector@61ec2cb5{HTTP/1.1,[http/1.1]}{0.0.0.0:8441}
+2022-11-06 12:23:34.206  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Stopped w.o.e.j.s.ServletContextHandler@2fd05b15{/,null,UNAVAILABLE}
+2022-11-06 12:23:34.206  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Stopped w.o.e.j.s.ServletContextHandler@7bbd0006{/__admin,null,UNAVAILABLE}
+2022-11-06 12:23:34.207  INFO 16412 --- [           main] w.o.e.jetty.server.AbstractConnector     : Stopped NetworkTrafficServerConnector@1f6d3a81{HTTP/1.1,[http/1.1]}{0.0.0.0:8443}
+2022-11-06 12:23:34.208  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Stopped w.o.e.j.s.ServletContextHandler@121f9c52{/,null,UNAVAILABLE}
+2022-11-06 12:23:34.208  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Stopped w.o.e.j.s.ServletContextHandler@2fa4888c{/__admin,null,UNAVAILABLE}
+2022-11-06 12:23:34.210  INFO 16412 --- [           main] w.o.e.jetty.server.AbstractConnector     : Stopped NetworkTrafficServerConnector@2daf0cc9{HTTP/1.1,[http/1.1]}{0.0.0.0:8889}
+2022-11-06 12:23:34.211  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Stopped w.o.e.j.s.ServletContextHandler@7b9d602c{/,null,UNAVAILABLE}
+2022-11-06 12:23:34.211  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Stopped w.o.e.j.s.ServletContextHandler@1e9f48d4{/__admin,null,UNAVAILABLE}
+2022-11-06 12:23:34.212 Verbose logging enabled
+2022-11-06 12:23:34.232 Verbose logging enabled
+2022-11-06 12:23:34.252 Verbose logging enabled
+2022-11-06 12:23:34.269  INFO 16412 --- [           main] w.org.eclipse.jetty.server.Server        : jetty-9.4.20.v20190813; built: 2019-08-13T21:28:18.144Z; git: 84700530e645e812b336747464d6fbbf370c9a20; jvm 11.0.11+9-LTS-194
+2022-11-06 12:23:34.271  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Started w.o.e.j.s.ServletContextHandler@16c1345b{/__admin,null,AVAILABLE}
+2022-11-06 12:23:34.272  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Started w.o.e.j.s.ServletContextHandler@278cbf5a{/,null,AVAILABLE}
+2022-11-06 12:23:34.277  INFO 16412 --- [           main] w.o.e.jetty.server.AbstractConnector     : Started NetworkTrafficServerConnector@6f00c40e{HTTP/1.1,[http/1.1]}{0.0.0.0:8889}
+2022-11-06 12:23:34.277  INFO 16412 --- [           main] w.org.eclipse.jetty.server.Server        : Started @25165ms
+2022-11-06 12:23:34.281  INFO 16412 --- [           main] w.org.eclipse.jetty.server.Server        : jetty-9.4.20.v20190813; built: 2019-08-13T21:28:18.144Z; git: 84700530e645e812b336747464d6fbbf370c9a20; jvm 11.0.11+9-LTS-194
+2022-11-06 12:23:34.284  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Started w.o.e.j.s.ServletContextHandler@20505460{/__admin,null,AVAILABLE}
+2022-11-06 12:23:34.285  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Started w.o.e.j.s.ServletContextHandler@8eeb4c5{/,null,AVAILABLE}
+2022-11-06 12:23:34.290  INFO 16412 --- [           main] w.o.e.jetty.server.AbstractConnector     : Started NetworkTrafficServerConnector@ec1b776{HTTP/1.1,[http/1.1]}{0.0.0.0:8443}
+2022-11-06 12:23:34.291  INFO 16412 --- [           main] w.org.eclipse.jetty.server.Server        : Started @25178ms
+2022-11-06 12:23:34.293  INFO 16412 --- [           main] w.org.eclipse.jetty.server.Server        : jetty-9.4.20.v20190813; built: 2019-08-13T21:28:18.144Z; git: 84700530e645e812b336747464d6fbbf370c9a20; jvm 11.0.11+9-LTS-194
+2022-11-06 12:23:34.296  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Started w.o.e.j.s.ServletContextHandler@702432cc{/__admin,null,AVAILABLE}
+2022-11-06 12:23:34.296  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Started w.o.e.j.s.ServletContextHandler@5039c2cf{/,null,AVAILABLE}
+2022-11-06 12:23:34.307  INFO 16412 --- [           main] w.o.e.jetty.server.AbstractConnector     : Started NetworkTrafficServerConnector@6cac0334{HTTP/1.1,[http/1.1]}{0.0.0.0:8441}
+2022-11-06 12:23:34.308  INFO 16412 --- [           main] w.org.eclipse.jetty.server.Server        : Started @25196ms
+2022-11-06 12:23:34.315  INFO 16412 --- [           main] h.b.m.s.i.i.ItsCentralIntegrationTest    : setup: START
+2022-11-06 12:23:34.317  INFO 16412 --- [           main] .c.s.p.ItsCentralApplicationInitListener : ItsCentralApplicationInitListener custom init started
+2022-11-06 12:23:34.324  INFO 16412 --- [tp499105172-242] w.o.e.j.s.handler.ContextHandler.ROOT    : RequestHandlerClass from context returned com.github.tomakehurst.wiremock.http.StubRequestHandler. Normalized mapped under returned 'null'
+2022-11-06 12:23:34.325 Warning: JSON path expression 'serviceDefinition' failed to match document 'null' because of error 'json string can not be null or empty'
+2022-11-06 12:23:34.326 Warning: JSON path expression 'serviceDefinition' failed to match document 'null' because of error 'json string can not be null or empty'
+2022-11-06 12:23:34.335 Request received:
+127.0.0.1 - GET /serviceregistry/echo
+
+Accept: [text/plain, application/json]
+Connection: [keep-alive]
+User-Agent: [Apache-HttpClient/4.5.12 (Java/11.0.11)]
+Host: [127.0.0.1:8443]
+Accept-Encoding: [gzip,deflate]
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "Got it!",
+  "headers" : {
+    "Content-Type" : "text/plain"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [text/plain]
+Matched-Stub-Id: [837f10e1-057a-4655-830d-5fcc6bfbdf7e]
+
+
+2022-11-06 12:23:34.340  INFO 16412 --- [           main] e.a.c.l.config.ApplicationInitListener   : 'SERVICE_REGISTRY' core system is reachable.
+2022-11-06 12:23:34.372 Request received:
+127.0.0.1 - POST /serviceregistry/register
+
+Accept: [text/plain, application/json]
+Connection: [keep-alive]
+User-Agent: [Apache-HttpClient/4.5.12 (Java/11.0.11)]
+Host: [127.0.0.1:8443]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [310]
+Content-Type: [application/json]
+{"serviceDefinition":"report-train","providerSystem":{"systemName":"its_central","address":"127.0.0.1","port":8888,"authenticationInfo":null},"serviceUri":"/itscentral/report-train","endOfValidity":null,"secure":"NOT_SECURE","metadata":{"http-method":"POST"},"version":null,"interfaces":["HTTP-INSECURE-JSON"]}
+
+Matched response definition:
+{
+  "status" : 200,
+  "bodyFileName" : "serviceregistry-register-response-report-train.json",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+Matched-Stub-Id: [fe35c157-abf8-492c-8407-4db8725f6e5e]
+
+
+2022-11-06 12:23:34.389 Request received:
+127.0.0.1 - POST /serviceregistry/register
+
+Accept: [text/plain, application/json]
+Connection: [keep-alive]
+User-Agent: [Apache-HttpClient/4.5.12 (Java/11.0.11)]
+Host: [127.0.0.1:8443]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [314]
+Content-Type: [application/json]
+{"serviceDefinition":"report-vehicle","providerSystem":{"systemName":"its_central","address":"127.0.0.1","port":8888,"authenticationInfo":null},"serviceUri":"/itscentral/report-vehicle","endOfValidity":null,"secure":"NOT_SECURE","metadata":{"http-method":"POST"},"version":null,"interfaces":["HTTP-INSECURE-JSON"]}
+
+Matched response definition:
+{
+  "status" : 200,
+  "bodyFileName" : "serviceregistry-register-response-report-vehicle.json",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+Matched-Stub-Id: [2c1492c9-b8e6-43b6-9e00-89858d7284fd]
+
+
+2022-11-06 12:23:34.404 Request received:
+127.0.0.1 - POST /serviceregistry/query
+
+Accept: [text/plain, application/json]
+Connection: [keep-alive]
+User-Agent: [Apache-HttpClient/4.5.12 (Java/11.0.11)]
+Host: [127.0.0.1:8443]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [247]
+Content-Type: [application/json]
+{"serviceDefinitionRequirement":"orchestration-service","interfaceRequirements":null,"securityRequirements":null,"metadataRequirements":null,"versionRequirement":null,"minVersionRequirement":null,"maxVersionRequirement":null,"pingProviders":false}
+
+Matched response definition:
+{
+  "status" : 200,
+  "bodyFileName" : "serviceregistry-query-response-orchestration-service.json",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+Matched-Stub-Id: [dfc1e7d3-5435-451b-a0c6-ed1fd2e797d7]
+
+
+2022-11-06 12:23:34.411  INFO 16412 --- [tp163843907-245] w.o.e.j.s.handler.ContextHandler.ROOT    : RequestHandlerClass from context returned com.github.tomakehurst.wiremock.http.StubRequestHandler. Normalized mapped under returned 'null'
+2022-11-06 12:23:34.413 Warning: JSON path expression 'serviceDefinition' failed to match document 'null' because of error 'json string can not be null or empty'
+2022-11-06 12:23:34.415 Warning: JSON path expression 'serviceDefinition' failed to match document 'null' because of error 'json string can not be null or empty'
+2022-11-06 12:23:34.421 Request received:
+127.0.0.1 - GET /orchestrator/echo
+
+Accept: [text/plain, application/json]
+Connection: [keep-alive]
+User-Agent: [Apache-HttpClient/4.5.12 (Java/11.0.11)]
+Host: [127.0.0.1:8441]
+Accept-Encoding: [gzip,deflate]
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "Got it!",
+  "headers" : {
+    "Content-Type" : "text/plain"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [text/plain]
+Matched-Stub-Id: [0653f316-5fc4-4aea-b8e8-aa902cd36706]
+
+
+2022-11-06 12:23:34.426  INFO 16412 --- [           main] e.a.c.l.config.ApplicationInitListener   : 'ORCHESTRATOR' core system is reachable.
+2022-11-06 12:23:34.436 Request received:
+127.0.0.1 - POST /serviceregistry/query
+
+Accept: [text/plain, application/json]
+Connection: [keep-alive]
+User-Agent: [Apache-HttpClient/4.5.12 (Java/11.0.11)]
+Host: [127.0.0.1:8443]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [247]
+Content-Type: [application/json]
+{"serviceDefinitionRequirement":"orchestration-service","interfaceRequirements":null,"securityRequirements":null,"metadataRequirements":null,"versionRequirement":null,"minVersionRequirement":null,"maxVersionRequirement":null,"pingProviders":false}
+
+Matched response definition:
+{
+  "status" : 200,
+  "bodyFileName" : "serviceregistry-query-response-orchestration-service.json",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+Matched-Stub-Id: [dfc1e7d3-5435-451b-a0c6-ed1fd2e797d7]
+
+
+2022-11-06 12:23:34.439  INFO 16412 --- [           main] hu.bme.mit.swsv.itssos.util.Endpoint     : Orchestration request for send-notification service:
+2022-11-06 12:23:34.441  INFO 16412 --- [           main] hu.bme.mit.swsv.itssos.util.Endpoint     : {
+  "requesterSystem" : {
+    "systemName" : "its_central",
+    "address" : "127.0.0.1",
+    "port" : 8888,
+    "authenticationInfo" : null
+  },
+  "requesterCloud" : null,
+  "requestedService" : {
+    "serviceDefinitionRequirement" : "send-notification",
+    "interfaceRequirements" : [ "HTTP-INSECURE-JSON" ],
+    "securityRequirements" : null,
+    "metadataRequirements" : null,
+    "versionRequirement" : null,
+    "minVersionRequirement" : null,
+    "maxVersionRequirement" : null,
+    "pingProviders" : false
+  },
+  "orchestrationFlags" : {
+    "onlyPreferred" : false,
+    "overrideStore" : true,
+    "externalServiceRequest" : false,
+    "enableInterCloud" : false,
+    "enableQoS" : false,
+    "matchmaking" : true,
+    "metadataSearch" : false,
+    "triggerInterCloud" : false,
+    "pingProviders" : false
+  },
+  "preferredProviders" : [ ],
+  "commands" : { },
+  "qosRequirements" : { }
+}
+2022-11-06 12:23:34.457 Request received:
+127.0.0.1 - POST /orchestrator/orchestration
+
+Accept: [text/plain, application/json]
+Connection: [keep-alive]
+User-Agent: [Apache-HttpClient/4.5.12 (Java/11.0.11)]
+Host: [127.0.0.1:8441]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [700]
+Content-Type: [application/json]
+{"requesterSystem":{"systemName":"its_central","address":"127.0.0.1","port":8888,"authenticationInfo":null},"requesterCloud":null,"requestedService":{"serviceDefinitionRequirement":"send-notification","interfaceRequirements":["HTTP-INSECURE-JSON"],"securityRequirements":null,"metadataRequirements":null,"versionRequirement":null,"minVersionRequirement":null,"maxVersionRequirement":null,"pingProviders":false},"orchestrationFlags":{"onlyPreferred":false,"overrideStore":true,"externalServiceRequest":false,"enableInterCloud":false,"enableQoS":false,"matchmaking":true,"metadataSearch":false,"triggerInterCloud":false,"pingProviders":false},"preferredProviders":[],"commands":{},"qosRequirements":{}}
+
+Matched response definition:
+{
+  "status" : 200,
+  "bodyFileName" : "orchestrator-orchestration-response-send-notification.json",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+Matched-Stub-Id: [4d41855a-3b38-42b9-83da-3989ad0bae8b]
+
+
+2022-11-06 12:23:34.462  INFO 16412 --- [           main] hu.bme.mit.swsv.itssos.util.Endpoint     : Orchestration response:
+{
+  "response" : [ {
+    "provider" : {
+      "id" : 12,
+      "systemName" : "vehicle_communicator",
+      "address" : "127.0.0.1",
+      "port" : 8889,
+      "createdAt" : "2020-10-25 23:02:58",
+      "updatedAt" : "2020-10-25 23:02:58"
+    },
+    "service" : {
+      "id" : 16,
+      "serviceDefinition" : "send-notification",
+      "createdAt" : "2020-10-25 23:02:58",
+      "updatedAt" : "2020-10-25 23:02:58"
+    },
+    "serviceUri" : "/vehicle-communicator/send-notification",
+    "secure" : "NOT_SECURE",
+    "metadata" : {
+      "http-method" : "POST"
+    },
+    "interfaces" : [ {
+      "id" : 2,
+      "interfaceName" : "HTTP-INSECURE-JSON",
+      "createdAt" : "2020-10-18 00:17:11",
+      "updatedAt" : "2020-10-18 00:17:11"
+    } ],
+    "version" : 1,
+    "authorizationTokens" : null,
+    "warnings" : [ "TTL_UNKNOWN" ]
+  } ]
+}
+2022-11-06 12:23:34.463  INFO 16412 --- [           main] h.b.m.s.i.i.ItsCentralIntegrationTest    : setup: END
+2022-11-06 12:23:34.464  INFO 16412 --- [           main] h.b.m.s.i.i.ItsCentralIntegrationTest    : testSendStopTrainArriving: START
+2022-11-06 12:23:34.470  INFO 16412 --- [0.1-8888-exec-4] h.b.m.s.i.i.ItsCentralController         : ReportTrainRequestDto{sensor=PROXIMITY, message=REGISTER}
+2022-11-06 12:23:34.470  INFO 16412 --- [0.1-8888-exec-4] hu.bme.mit.swsv.itssos.util.Endpoint     : Request:
+{
+  "registrationNumber" : null,
+  "level" : "PASS_SLOWLY"
+}
+2022-11-06 12:23:34.476  INFO 16412 --- [tp131084586-234] w.o.e.j.s.handler.ContextHandler.ROOT    : RequestHandlerClass from context returned com.github.tomakehurst.wiremock.http.StubRequestHandler. Normalized mapped under returned 'null'
+2022-11-06 12:23:34.483 Request received:
+127.0.0.1 - POST /vehicle-communicator/send-notification
+
+Accept: [text/plain, application/json]
+Connection: [keep-alive]
+User-Agent: [Apache-HttpClient/4.5.12 (Java/11.0.11)]
+Host: [127.0.0.1:8889]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [49]
+Content-Type: [application/json]
+{"registrationNumber":null,"level":"PASS_SLOWLY"}
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "OK"
+}
+
+Response:
+HTTP/1.1 200
+Matched-Stub-Id: [ef7eec04-6774-4c8c-bc30-515b227f9ce4]
+
+
+2022-11-06 12:23:34.486  INFO 16412 --- [0.1-8888-exec-4] hu.bme.mit.swsv.itssos.util.Endpoint     : Provider response:
+"OK"
+2022-11-06 12:23:34.496  INFO 16412 --- [0.1-8888-exec-5] h.b.m.s.i.i.ItsCentralController         : ReportVehicleRequestDto{registrationNumber='1', message=ARRIVING}
+2022-11-06 12:23:34.506  INFO 16412 --- [0.1-8888-exec-6] h.b.m.s.i.i.ItsCentralController         : ReportTrainRequestDto{sensor=PROXIMITY, message=ARRIVING}
+2022-11-06 12:23:34.506  INFO 16412 --- [0.1-8888-exec-6] hu.bme.mit.swsv.itssos.util.Endpoint     : Request:
+{
+  "registrationNumber" : null,
+  "level" : "STOP"
+}
+2022-11-06 12:23:34.515 Request received:
+127.0.0.1 - POST /vehicle-communicator/send-notification
+
+Accept: [text/plain, application/json]
+Connection: [keep-alive]
+User-Agent: [Apache-HttpClient/4.5.12 (Java/11.0.11)]
+Host: [127.0.0.1:8889]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [42]
+Content-Type: [application/json]
+{"registrationNumber":null,"level":"STOP"}
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "OK"
+}
+
+Response:
+HTTP/1.1 200
+Matched-Stub-Id: [ef7eec04-6774-4c8c-bc30-515b227f9ce4]
+
+
+2022-11-06 12:23:34.519  INFO 16412 --- [0.1-8888-exec-6] hu.bme.mit.swsv.itssos.util.Endpoint     : Provider response:
+"OK"
+2022-11-06 12:23:34.524  INFO 16412 --- [           main] h.b.m.s.i.i.ItsCentralIntegrationTest    : testSendStopTrainArriving: END
+2022-11-06 12:23:34.532  INFO 16412 --- [           main] w.o.e.jetty.server.AbstractConnector     : Stopped NetworkTrafficServerConnector@6cac0334{HTTP/1.1,[http/1.1]}{0.0.0.0:8441}
+2022-11-06 12:23:34.533  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Stopped w.o.e.j.s.ServletContextHandler@5039c2cf{/,null,UNAVAILABLE}
+2022-11-06 12:23:34.533  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Stopped w.o.e.j.s.ServletContextHandler@702432cc{/__admin,null,UNAVAILABLE}
+2022-11-06 12:23:34.535  INFO 16412 --- [           main] w.o.e.jetty.server.AbstractConnector     : Stopped NetworkTrafficServerConnector@ec1b776{HTTP/1.1,[http/1.1]}{0.0.0.0:8443}
+2022-11-06 12:23:34.536  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Stopped w.o.e.j.s.ServletContextHandler@8eeb4c5{/,null,UNAVAILABLE}
+2022-11-06 12:23:34.536  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Stopped w.o.e.j.s.ServletContextHandler@20505460{/__admin,null,UNAVAILABLE}
+2022-11-06 12:23:34.538  INFO 16412 --- [           main] w.o.e.jetty.server.AbstractConnector     : Stopped NetworkTrafficServerConnector@6f00c40e{HTTP/1.1,[http/1.1]}{0.0.0.0:8889}
+2022-11-06 12:23:34.539  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Stopped w.o.e.j.s.ServletContextHandler@278cbf5a{/,null,UNAVAILABLE}
+2022-11-06 12:23:34.540  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Stopped w.o.e.j.s.ServletContextHandler@16c1345b{/__admin,null,UNAVAILABLE}
+2022-11-06 12:23:34.541 Verbose logging enabled
+2022-11-06 12:23:34.562 Verbose logging enabled
+2022-11-06 12:23:34.585 Verbose logging enabled
+2022-11-06 12:23:34.616  INFO 16412 --- [           main] w.org.eclipse.jetty.server.Server        : jetty-9.4.20.v20190813; built: 2019-08-13T21:28:18.144Z; git: 84700530e645e812b336747464d6fbbf370c9a20; jvm 11.0.11+9-LTS-194
+2022-11-06 12:23:34.624  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Started w.o.e.j.s.ServletContextHandler@39007725{/__admin,null,AVAILABLE}
+2022-11-06 12:23:34.625  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Started w.o.e.j.s.ServletContextHandler@684bfba9{/,null,AVAILABLE}
+2022-11-06 12:23:34.641  INFO 16412 --- [           main] w.o.e.jetty.server.AbstractConnector     : Started NetworkTrafficServerConnector@29a1dab3{HTTP/1.1,[http/1.1]}{0.0.0.0:8889}
+2022-11-06 12:23:34.641  INFO 16412 --- [           main] w.org.eclipse.jetty.server.Server        : Started @25528ms
+2022-11-06 12:23:34.644  INFO 16412 --- [           main] w.org.eclipse.jetty.server.Server        : jetty-9.4.20.v20190813; built: 2019-08-13T21:28:18.144Z; git: 84700530e645e812b336747464d6fbbf370c9a20; jvm 11.0.11+9-LTS-194
+2022-11-06 12:23:34.646  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Started w.o.e.j.s.ServletContextHandler@73839f22{/__admin,null,AVAILABLE}
+2022-11-06 12:23:34.647  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Started w.o.e.j.s.ServletContextHandler@1512efe9{/,null,AVAILABLE}
+2022-11-06 12:23:34.655  INFO 16412 --- [           main] w.o.e.jetty.server.AbstractConnector     : Started NetworkTrafficServerConnector@1d0fc0bc{HTTP/1.1,[http/1.1]}{0.0.0.0:8443}
+2022-11-06 12:23:34.655  INFO 16412 --- [           main] w.org.eclipse.jetty.server.Server        : Started @25543ms
+2022-11-06 12:23:34.660  INFO 16412 --- [           main] w.org.eclipse.jetty.server.Server        : jetty-9.4.20.v20190813; built: 2019-08-13T21:28:18.144Z; git: 84700530e645e812b336747464d6fbbf370c9a20; jvm 11.0.11+9-LTS-194
+2022-11-06 12:23:34.662  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Started w.o.e.j.s.ServletContextHandler@24f77077{/__admin,null,AVAILABLE}
+2022-11-06 12:23:34.663  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Started w.o.e.j.s.ServletContextHandler@2eb73a42{/,null,AVAILABLE}
+2022-11-06 12:23:34.679  INFO 16412 --- [           main] w.o.e.jetty.server.AbstractConnector     : Started NetworkTrafficServerConnector@5f596a1a{HTTP/1.1,[http/1.1]}{0.0.0.0:8441}
+2022-11-06 12:23:34.680  INFO 16412 --- [           main] w.org.eclipse.jetty.server.Server        : Started @25568ms
+2022-11-06 12:23:34.686  INFO 16412 --- [           main] h.b.m.s.i.i.ItsCentralIntegrationTest    : setup: START
+2022-11-06 12:23:34.686  INFO 16412 --- [           main] .c.s.p.ItsCentralApplicationInitListener : ItsCentralApplicationInitListener custom init started
+2022-11-06 12:23:34.692  INFO 16412 --- [tp504561103-264] w.o.e.j.s.handler.ContextHandler.ROOT    : RequestHandlerClass from context returned com.github.tomakehurst.wiremock.http.StubRequestHandler. Normalized mapped under returned 'null'
+2022-11-06 12:23:34.693 Warning: JSON path expression 'serviceDefinition' failed to match document 'null' because of error 'json string can not be null or empty'
+2022-11-06 12:23:34.693 Warning: JSON path expression 'serviceDefinition' failed to match document 'null' because of error 'json string can not be null or empty'
+2022-11-06 12:23:34.701 Request received:
+127.0.0.1 - GET /serviceregistry/echo
+
+Accept: [text/plain, application/json]
+Connection: [keep-alive]
+User-Agent: [Apache-HttpClient/4.5.12 (Java/11.0.11)]
+Host: [127.0.0.1:8443]
+Accept-Encoding: [gzip,deflate]
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "Got it!",
+  "headers" : {
+    "Content-Type" : "text/plain"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [text/plain]
+Matched-Stub-Id: [ed08a022-563b-42cf-a7cf-ffc022b21d15]
+
+
+2022-11-06 12:23:34.704  INFO 16412 --- [           main] e.a.c.l.config.ApplicationInitListener   : 'SERVICE_REGISTRY' core system is reachable.
+2022-11-06 12:23:34.723 Request received:
+127.0.0.1 - POST /serviceregistry/register
+
+Accept: [text/plain, application/json]
+Connection: [keep-alive]
+User-Agent: [Apache-HttpClient/4.5.12 (Java/11.0.11)]
+Host: [127.0.0.1:8443]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [310]
+Content-Type: [application/json]
+{"serviceDefinition":"report-train","providerSystem":{"systemName":"its_central","address":"127.0.0.1","port":8888,"authenticationInfo":null},"serviceUri":"/itscentral/report-train","endOfValidity":null,"secure":"NOT_SECURE","metadata":{"http-method":"POST"},"version":null,"interfaces":["HTTP-INSECURE-JSON"]}
+
+Matched response definition:
+{
+  "status" : 200,
+  "bodyFileName" : "serviceregistry-register-response-report-train.json",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+Matched-Stub-Id: [1f8c0362-e9b3-4302-b1cd-e78e83c0d12e]
+
+
+2022-11-06 12:23:34.743 Request received:
+127.0.0.1 - POST /serviceregistry/register
+
+Accept: [text/plain, application/json]
+Connection: [keep-alive]
+User-Agent: [Apache-HttpClient/4.5.12 (Java/11.0.11)]
+Host: [127.0.0.1:8443]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [314]
+Content-Type: [application/json]
+{"serviceDefinition":"report-vehicle","providerSystem":{"systemName":"its_central","address":"127.0.0.1","port":8888,"authenticationInfo":null},"serviceUri":"/itscentral/report-vehicle","endOfValidity":null,"secure":"NOT_SECURE","metadata":{"http-method":"POST"},"version":null,"interfaces":["HTTP-INSECURE-JSON"]}
+
+Matched response definition:
+{
+  "status" : 200,
+  "bodyFileName" : "serviceregistry-register-response-report-vehicle.json",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+Matched-Stub-Id: [4f19cec8-8dc8-4517-9159-106d64837c8b]
+
+
+2022-11-06 12:23:34.756 Request received:
+127.0.0.1 - POST /serviceregistry/query
+
+Accept: [text/plain, application/json]
+Connection: [keep-alive]
+User-Agent: [Apache-HttpClient/4.5.12 (Java/11.0.11)]
+Host: [127.0.0.1:8443]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [247]
+Content-Type: [application/json]
+{"serviceDefinitionRequirement":"orchestration-service","interfaceRequirements":null,"securityRequirements":null,"metadataRequirements":null,"versionRequirement":null,"minVersionRequirement":null,"maxVersionRequirement":null,"pingProviders":false}
+
+Matched response definition:
+{
+  "status" : 200,
+  "bodyFileName" : "serviceregistry-query-response-orchestration-service.json",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+Matched-Stub-Id: [e05b0292-2fad-4bb1-8781-8a7b92bd8847]
+
+
+2022-11-06 12:23:34.770  INFO 16412 --- [tp581486647-278] w.o.e.j.s.handler.ContextHandler.ROOT    : RequestHandlerClass from context returned com.github.tomakehurst.wiremock.http.StubRequestHandler. Normalized mapped under returned 'null'
+2022-11-06 12:23:34.771 Warning: JSON path expression 'serviceDefinition' failed to match document 'null' because of error 'json string can not be null or empty'
+2022-11-06 12:23:34.772 Warning: JSON path expression 'serviceDefinition' failed to match document 'null' because of error 'json string can not be null or empty'
+2022-11-06 12:23:34.777 Request received:
+127.0.0.1 - GET /orchestrator/echo
+
+Accept: [text/plain, application/json]
+Connection: [keep-alive]
+User-Agent: [Apache-HttpClient/4.5.12 (Java/11.0.11)]
+Host: [127.0.0.1:8441]
+Accept-Encoding: [gzip,deflate]
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "Got it!",
+  "headers" : {
+    "Content-Type" : "text/plain"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [text/plain]
+Matched-Stub-Id: [925cb03f-7350-420b-8820-2ff1b53eba18]
+
+
+2022-11-06 12:23:34.783  INFO 16412 --- [           main] e.a.c.l.config.ApplicationInitListener   : 'ORCHESTRATOR' core system is reachable.
+2022-11-06 12:23:34.795 Request received:
+127.0.0.1 - POST /serviceregistry/query
+
+Accept: [text/plain, application/json]
+Connection: [keep-alive]
+User-Agent: [Apache-HttpClient/4.5.12 (Java/11.0.11)]
+Host: [127.0.0.1:8443]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [247]
+Content-Type: [application/json]
+{"serviceDefinitionRequirement":"orchestration-service","interfaceRequirements":null,"securityRequirements":null,"metadataRequirements":null,"versionRequirement":null,"minVersionRequirement":null,"maxVersionRequirement":null,"pingProviders":false}
+
+Matched response definition:
+{
+  "status" : 200,
+  "bodyFileName" : "serviceregistry-query-response-orchestration-service.json",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+Matched-Stub-Id: [e05b0292-2fad-4bb1-8781-8a7b92bd8847]
+
+
+2022-11-06 12:23:34.800  INFO 16412 --- [           main] hu.bme.mit.swsv.itssos.util.Endpoint     : Orchestration request for send-notification service:
+2022-11-06 12:23:34.802  INFO 16412 --- [           main] hu.bme.mit.swsv.itssos.util.Endpoint     : {
+  "requesterSystem" : {
+    "systemName" : "its_central",
+    "address" : "127.0.0.1",
+    "port" : 8888,
+    "authenticationInfo" : null
+  },
+  "requesterCloud" : null,
+  "requestedService" : {
+    "serviceDefinitionRequirement" : "send-notification",
+    "interfaceRequirements" : [ "HTTP-INSECURE-JSON" ],
+    "securityRequirements" : null,
+    "metadataRequirements" : null,
+    "versionRequirement" : null,
+    "minVersionRequirement" : null,
+    "maxVersionRequirement" : null,
+    "pingProviders" : false
+  },
+  "orchestrationFlags" : {
+    "onlyPreferred" : false,
+    "overrideStore" : true,
+    "externalServiceRequest" : false,
+    "enableInterCloud" : false,
+    "enableQoS" : false,
+    "matchmaking" : true,
+    "metadataSearch" : false,
+    "triggerInterCloud" : false,
+    "pingProviders" : false
+  },
+  "preferredProviders" : [ ],
+  "commands" : { },
+  "qosRequirements" : { }
+}
+2022-11-06 12:23:34.812 Request received:
+127.0.0.1 - POST /orchestrator/orchestration
+
+Accept: [text/plain, application/json]
+Connection: [keep-alive]
+User-Agent: [Apache-HttpClient/4.5.12 (Java/11.0.11)]
+Host: [127.0.0.1:8441]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [700]
+Content-Type: [application/json]
+{"requesterSystem":{"systemName":"its_central","address":"127.0.0.1","port":8888,"authenticationInfo":null},"requesterCloud":null,"requestedService":{"serviceDefinitionRequirement":"send-notification","interfaceRequirements":["HTTP-INSECURE-JSON"],"securityRequirements":null,"metadataRequirements":null,"versionRequirement":null,"minVersionRequirement":null,"maxVersionRequirement":null,"pingProviders":false},"orchestrationFlags":{"onlyPreferred":false,"overrideStore":true,"externalServiceRequest":false,"enableInterCloud":false,"enableQoS":false,"matchmaking":true,"metadataSearch":false,"triggerInterCloud":false,"pingProviders":false},"preferredProviders":[],"commands":{},"qosRequirements":{}}
+
+Matched response definition:
+{
+  "status" : 200,
+  "bodyFileName" : "orchestrator-orchestration-response-send-notification.json",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+Matched-Stub-Id: [b5f09e50-3d84-40ea-bc81-3057c795e3be]
+
+
+2022-11-06 12:23:34.818  INFO 16412 --- [           main] hu.bme.mit.swsv.itssos.util.Endpoint     : Orchestration response:
+{
+  "response" : [ {
+    "provider" : {
+      "id" : 12,
+      "systemName" : "vehicle_communicator",
+      "address" : "127.0.0.1",
+      "port" : 8889,
+      "createdAt" : "2020-10-25 23:02:58",
+      "updatedAt" : "2020-10-25 23:02:58"
+    },
+    "service" : {
+      "id" : 16,
+      "serviceDefinition" : "send-notification",
+      "createdAt" : "2020-10-25 23:02:58",
+      "updatedAt" : "2020-10-25 23:02:58"
+    },
+    "serviceUri" : "/vehicle-communicator/send-notification",
+    "secure" : "NOT_SECURE",
+    "metadata" : {
+      "http-method" : "POST"
+    },
+    "interfaces" : [ {
+      "id" : 2,
+      "interfaceName" : "HTTP-INSECURE-JSON",
+      "createdAt" : "2020-10-18 00:17:11",
+      "updatedAt" : "2020-10-18 00:17:11"
+    } ],
+    "version" : 1,
+    "authorizationTokens" : null,
+    "warnings" : [ "TTL_UNKNOWN" ]
+  } ]
+}
+2022-11-06 12:23:34.818  INFO 16412 --- [           main] h.b.m.s.i.i.ItsCentralIntegrationTest    : setup: END
+2022-11-06 12:23:34.819  INFO 16412 --- [           main] h.b.m.s.i.i.ItsCentralIntegrationTest    : testDirectNotificationsToMultipleVechicles: START
+2022-11-06 12:23:34.824  INFO 16412 --- [0.1-8888-exec-7] h.b.m.s.i.i.ItsCentralController         : ReportTrainRequestDto{sensor=PROXIMITY, message=REGISTER}
+2022-11-06 12:23:34.824  INFO 16412 --- [0.1-8888-exec-7] hu.bme.mit.swsv.itssos.util.Endpoint     : Request:
+{
+  "registrationNumber" : null,
+  "level" : "PASS_SLOWLY"
+}
+2022-11-06 12:23:34.838  INFO 16412 --- [p1933826115-260] w.o.e.j.s.handler.ContextHandler.ROOT    : RequestHandlerClass from context returned com.github.tomakehurst.wiremock.http.StubRequestHandler. Normalized mapped under returned 'null'
+2022-11-06 12:23:34.845 Request received:
+127.0.0.1 - POST /vehicle-communicator/send-notification
+
+Accept: [text/plain, application/json]
+Connection: [keep-alive]
+User-Agent: [Apache-HttpClient/4.5.12 (Java/11.0.11)]
+Host: [127.0.0.1:8889]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [49]
+Content-Type: [application/json]
+{"registrationNumber":null,"level":"PASS_SLOWLY"}
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "OK"
+}
+
+Response:
+HTTP/1.1 200
+Matched-Stub-Id: [22841210-15b6-42cb-bb64-fb68f52f47af]
+
+
+2022-11-06 12:23:34.853  INFO 16412 --- [0.1-8888-exec-7] hu.bme.mit.swsv.itssos.util.Endpoint     : Provider response:
+"OK"
+2022-11-06 12:23:34.859  INFO 16412 --- [0.1-8888-exec-8] h.b.m.s.i.i.ItsCentralController         : ReportVehicleRequestDto{registrationNumber='1', message=ARRIVING}
+2022-11-06 12:23:34.875  INFO 16412 --- [0.1-8888-exec-9] h.b.m.s.i.i.ItsCentralController         : ReportVehicleRequestDto{registrationNumber='2', message=ARRIVING}
+2022-11-06 12:23:34.907  INFO 16412 --- [0.1-8888-exec-9] h.b.m.s.i.i.ItsCentralController         : ReportVehicleRequestDto{registrationNumber='3', message=ARRIVING}
+2022-11-06 12:23:34.925  INFO 16412 --- [.1-8888-exec-10] h.b.m.s.i.i.ItsCentralController         : ReportVehicleRequestDto{registrationNumber='4', message=ARRIVING}
+2022-11-06 12:23:34.934  INFO 16412 --- [0.1-8888-exec-1] h.b.m.s.i.i.ItsCentralController         : ReportTrainRequestDto{sensor=PROXIMITY, message=ARRIVING}
+2022-11-06 12:23:34.934  INFO 16412 --- [0.1-8888-exec-1] hu.bme.mit.swsv.itssos.util.Endpoint     : Request:
+{
+  "registrationNumber" : null,
+  "level" : "STOP"
+}
+2022-11-06 12:23:34.947 Request received:
+127.0.0.1 - POST /vehicle-communicator/send-notification
+
+Accept: [text/plain, application/json]
+Connection: [keep-alive]
+User-Agent: [Apache-HttpClient/4.5.12 (Java/11.0.11)]
+Host: [127.0.0.1:8889]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [42]
+Content-Type: [application/json]
+{"registrationNumber":null,"level":"STOP"}
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "OK"
+}
+
+Response:
+HTTP/1.1 200
+Matched-Stub-Id: [22841210-15b6-42cb-bb64-fb68f52f47af]
+
+
+2022-11-06 12:23:34.950  INFO 16412 --- [0.1-8888-exec-1] hu.bme.mit.swsv.itssos.util.Endpoint     : Provider response:
+"OK"
+2022-11-06 12:23:34.954  INFO 16412 --- [           main] h.b.m.s.i.i.ItsCentralIntegrationTest    : testDirectNotificationsToMultipleVechicles: END
+2022-11-06 12:23:34.962  INFO 16412 --- [           main] w.o.e.jetty.server.AbstractConnector     : Stopped NetworkTrafficServerConnector@5f596a1a{HTTP/1.1,[http/1.1]}{0.0.0.0:8441}
+2022-11-06 12:23:34.962  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Stopped w.o.e.j.s.ServletContextHandler@2eb73a42{/,null,UNAVAILABLE}
+2022-11-06 12:23:34.962  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Stopped w.o.e.j.s.ServletContextHandler@24f77077{/__admin,null,UNAVAILABLE}
+2022-11-06 12:23:34.964  INFO 16412 --- [           main] w.o.e.jetty.server.AbstractConnector     : Stopped NetworkTrafficServerConnector@1d0fc0bc{HTTP/1.1,[http/1.1]}{0.0.0.0:8443}
+2022-11-06 12:23:34.965  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Stopped w.o.e.j.s.ServletContextHandler@1512efe9{/,null,UNAVAILABLE}
+2022-11-06 12:23:34.965  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Stopped w.o.e.j.s.ServletContextHandler@73839f22{/__admin,null,UNAVAILABLE}
+2022-11-06 12:23:34.967  INFO 16412 --- [           main] w.o.e.jetty.server.AbstractConnector     : Stopped NetworkTrafficServerConnector@29a1dab3{HTTP/1.1,[http/1.1]}{0.0.0.0:8889}
+2022-11-06 12:23:34.967  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Stopped w.o.e.j.s.ServletContextHandler@684bfba9{/,null,UNAVAILABLE}
+2022-11-06 12:23:34.967  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Stopped w.o.e.j.s.ServletContextHandler@39007725{/__admin,null,UNAVAILABLE}
+2022-11-06 12:23:34.969 Verbose logging enabled
+2022-11-06 12:23:34.988 Verbose logging enabled
+2022-11-06 12:23:35.010 Verbose logging enabled
+2022-11-06 12:23:35.027  INFO 16412 --- [           main] w.org.eclipse.jetty.server.Server        : jetty-9.4.20.v20190813; built: 2019-08-13T21:28:18.144Z; git: 84700530e645e812b336747464d6fbbf370c9a20; jvm 11.0.11+9-LTS-194
+2022-11-06 12:23:35.029  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Started w.o.e.j.s.ServletContextHandler@4a467ada{/__admin,null,AVAILABLE}
+2022-11-06 12:23:35.030  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Started w.o.e.j.s.ServletContextHandler@92775a3{/,null,AVAILABLE}
+2022-11-06 12:23:35.037  INFO 16412 --- [           main] w.o.e.jetty.server.AbstractConnector     : Started NetworkTrafficServerConnector@2784145d{HTTP/1.1,[http/1.1]}{0.0.0.0:8889}
+2022-11-06 12:23:35.038  INFO 16412 --- [           main] w.org.eclipse.jetty.server.Server        : Started @25925ms
+2022-11-06 12:23:35.040  INFO 16412 --- [           main] w.org.eclipse.jetty.server.Server        : jetty-9.4.20.v20190813; built: 2019-08-13T21:28:18.144Z; git: 84700530e645e812b336747464d6fbbf370c9a20; jvm 11.0.11+9-LTS-194
+2022-11-06 12:23:35.042  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Started w.o.e.j.s.ServletContextHandler@2c750b69{/__admin,null,AVAILABLE}
+2022-11-06 12:23:35.043  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Started w.o.e.j.s.ServletContextHandler@159a0f0e{/,null,AVAILABLE}
+2022-11-06 12:23:35.047  INFO 16412 --- [           main] w.o.e.jetty.server.AbstractConnector     : Started NetworkTrafficServerConnector@74070994{HTTP/1.1,[http/1.1]}{0.0.0.0:8443}
+2022-11-06 12:23:35.048  INFO 16412 --- [           main] w.org.eclipse.jetty.server.Server        : Started @25936ms
+2022-11-06 12:23:35.051  INFO 16412 --- [           main] w.org.eclipse.jetty.server.Server        : jetty-9.4.20.v20190813; built: 2019-08-13T21:28:18.144Z; git: 84700530e645e812b336747464d6fbbf370c9a20; jvm 11.0.11+9-LTS-194
+2022-11-06 12:23:35.053  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Started w.o.e.j.s.ServletContextHandler@30cb489a{/__admin,null,AVAILABLE}
+2022-11-06 12:23:35.054  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Started w.o.e.j.s.ServletContextHandler@401d83ce{/,null,AVAILABLE}
+2022-11-06 12:23:35.057  INFO 16412 --- [           main] w.o.e.jetty.server.AbstractConnector     : Started NetworkTrafficServerConnector@224e7aa5{HTTP/1.1,[http/1.1]}{0.0.0.0:8441}
+2022-11-06 12:23:35.057  INFO 16412 --- [           main] w.org.eclipse.jetty.server.Server        : Started @25945ms
+2022-11-06 12:23:35.062  INFO 16412 --- [           main] h.b.m.s.i.i.ItsCentralIntegrationTest    : setup: START
+2022-11-06 12:23:35.062  INFO 16412 --- [           main] .c.s.p.ItsCentralApplicationInitListener : ItsCentralApplicationInitListener custom init started
+2022-11-06 12:23:35.068  INFO 16412 --- [tp593341655-299] w.o.e.j.s.handler.ContextHandler.ROOT    : RequestHandlerClass from context returned com.github.tomakehurst.wiremock.http.StubRequestHandler. Normalized mapped under returned 'null'
+2022-11-06 12:23:35.068 Warning: JSON path expression 'serviceDefinition' failed to match document 'null' because of error 'json string can not be null or empty'
+2022-11-06 12:23:35.068 Warning: JSON path expression 'serviceDefinition' failed to match document 'null' because of error 'json string can not be null or empty'
+2022-11-06 12:23:35.071 Request received:
+127.0.0.1 - GET /serviceregistry/echo
+
+Accept: [text/plain, application/json]
+Connection: [keep-alive]
+User-Agent: [Apache-HttpClient/4.5.12 (Java/11.0.11)]
+Host: [127.0.0.1:8443]
+Accept-Encoding: [gzip,deflate]
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "Got it!",
+  "headers" : {
+    "Content-Type" : "text/plain"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [text/plain]
+Matched-Stub-Id: [a5f93f49-b981-4b56-ae95-33bf45f279d4]
+
+
+2022-11-06 12:23:35.074  INFO 16412 --- [           main] e.a.c.l.config.ApplicationInitListener   : 'SERVICE_REGISTRY' core system is reachable.
+2022-11-06 12:23:35.087 Request received:
+127.0.0.1 - POST /serviceregistry/register
+
+Accept: [text/plain, application/json]
+Connection: [keep-alive]
+User-Agent: [Apache-HttpClient/4.5.12 (Java/11.0.11)]
+Host: [127.0.0.1:8443]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [310]
+Content-Type: [application/json]
+{"serviceDefinition":"report-train","providerSystem":{"systemName":"its_central","address":"127.0.0.1","port":8888,"authenticationInfo":null},"serviceUri":"/itscentral/report-train","endOfValidity":null,"secure":"NOT_SECURE","metadata":{"http-method":"POST"},"version":null,"interfaces":["HTTP-INSECURE-JSON"]}
+
+Matched response definition:
+{
+  "status" : 200,
+  "bodyFileName" : "serviceregistry-register-response-report-train.json",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+Matched-Stub-Id: [1adadfc6-8e87-459e-965f-504718e5cbaf]
+
+
+2022-11-06 12:23:35.100 Request received:
+127.0.0.1 - POST /serviceregistry/register
+
+Accept: [text/plain, application/json]
+Connection: [keep-alive]
+User-Agent: [Apache-HttpClient/4.5.12 (Java/11.0.11)]
+Host: [127.0.0.1:8443]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [314]
+Content-Type: [application/json]
+{"serviceDefinition":"report-vehicle","providerSystem":{"systemName":"its_central","address":"127.0.0.1","port":8888,"authenticationInfo":null},"serviceUri":"/itscentral/report-vehicle","endOfValidity":null,"secure":"NOT_SECURE","metadata":{"http-method":"POST"},"version":null,"interfaces":["HTTP-INSECURE-JSON"]}
+
+Matched response definition:
+{
+  "status" : 200,
+  "bodyFileName" : "serviceregistry-register-response-report-vehicle.json",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+Matched-Stub-Id: [6db9ea10-27e8-49c6-b0c6-18d81208c548]
+
+
+2022-11-06 12:23:35.114 Request received:
+127.0.0.1 - POST /serviceregistry/query
+
+Accept: [text/plain, application/json]
+Connection: [keep-alive]
+User-Agent: [Apache-HttpClient/4.5.12 (Java/11.0.11)]
+Host: [127.0.0.1:8443]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [247]
+Content-Type: [application/json]
+{"serviceDefinitionRequirement":"orchestration-service","interfaceRequirements":null,"securityRequirements":null,"metadataRequirements":null,"versionRequirement":null,"minVersionRequirement":null,"maxVersionRequirement":null,"pingProviders":false}
+
+Matched response definition:
+{
+  "status" : 200,
+  "bodyFileName" : "serviceregistry-query-response-orchestration-service.json",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+Matched-Stub-Id: [4d3ad0df-c3c0-4a52-becf-826f9b5b3dbf]
+
+
+2022-11-06 12:23:35.121  INFO 16412 --- [tp709827525-307] w.o.e.j.s.handler.ContextHandler.ROOT    : RequestHandlerClass from context returned com.github.tomakehurst.wiremock.http.StubRequestHandler. Normalized mapped under returned 'null'
+2022-11-06 12:23:35.122 Warning: JSON path expression 'serviceDefinition' failed to match document 'null' because of error 'json string can not be null or empty'
+2022-11-06 12:23:35.123 Warning: JSON path expression 'serviceDefinition' failed to match document 'null' because of error 'json string can not be null or empty'
+2022-11-06 12:23:35.127 Request received:
+127.0.0.1 - GET /orchestrator/echo
+
+Accept: [text/plain, application/json]
+Connection: [keep-alive]
+User-Agent: [Apache-HttpClient/4.5.12 (Java/11.0.11)]
+Host: [127.0.0.1:8441]
+Accept-Encoding: [gzip,deflate]
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "Got it!",
+  "headers" : {
+    "Content-Type" : "text/plain"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [text/plain]
+Matched-Stub-Id: [5301ea08-9fde-48ef-b764-545352adcfb0]
+
+
+2022-11-06 12:23:35.129  INFO 16412 --- [           main] e.a.c.l.config.ApplicationInitListener   : 'ORCHESTRATOR' core system is reachable.
+2022-11-06 12:23:35.156 Request received:
+127.0.0.1 - POST /serviceregistry/query
+
+Accept: [text/plain, application/json]
+Connection: [keep-alive]
+User-Agent: [Apache-HttpClient/4.5.12 (Java/11.0.11)]
+Host: [127.0.0.1:8443]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [247]
+Content-Type: [application/json]
+{"serviceDefinitionRequirement":"orchestration-service","interfaceRequirements":null,"securityRequirements":null,"metadataRequirements":null,"versionRequirement":null,"minVersionRequirement":null,"maxVersionRequirement":null,"pingProviders":false}
+
+Matched response definition:
+{
+  "status" : 200,
+  "bodyFileName" : "serviceregistry-query-response-orchestration-service.json",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+Matched-Stub-Id: [4d3ad0df-c3c0-4a52-becf-826f9b5b3dbf]
+
+
+2022-11-06 12:23:35.160  INFO 16412 --- [           main] hu.bme.mit.swsv.itssos.util.Endpoint     : Orchestration request for send-notification service:
+2022-11-06 12:23:35.162  INFO 16412 --- [           main] hu.bme.mit.swsv.itssos.util.Endpoint     : {
+  "requesterSystem" : {
+    "systemName" : "its_central",
+    "address" : "127.0.0.1",
+    "port" : 8888,
+    "authenticationInfo" : null
+  },
+  "requesterCloud" : null,
+  "requestedService" : {
+    "serviceDefinitionRequirement" : "send-notification",
+    "interfaceRequirements" : [ "HTTP-INSECURE-JSON" ],
+    "securityRequirements" : null,
+    "metadataRequirements" : null,
+    "versionRequirement" : null,
+    "minVersionRequirement" : null,
+    "maxVersionRequirement" : null,
+    "pingProviders" : false
+  },
+  "orchestrationFlags" : {
+    "onlyPreferred" : false,
+    "overrideStore" : true,
+    "externalServiceRequest" : false,
+    "enableInterCloud" : false,
+    "enableQoS" : false,
+    "matchmaking" : true,
+    "metadataSearch" : false,
+    "triggerInterCloud" : false,
+    "pingProviders" : false
+  },
+  "preferredProviders" : [ ],
+  "commands" : { },
+  "qosRequirements" : { }
+}
+2022-11-06 12:23:35.176 Request received:
+127.0.0.1 - POST /orchestrator/orchestration
+
+Accept: [text/plain, application/json]
+Connection: [keep-alive]
+User-Agent: [Apache-HttpClient/4.5.12 (Java/11.0.11)]
+Host: [127.0.0.1:8441]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [700]
+Content-Type: [application/json]
+{"requesterSystem":{"systemName":"its_central","address":"127.0.0.1","port":8888,"authenticationInfo":null},"requesterCloud":null,"requestedService":{"serviceDefinitionRequirement":"send-notification","interfaceRequirements":["HTTP-INSECURE-JSON"],"securityRequirements":null,"metadataRequirements":null,"versionRequirement":null,"minVersionRequirement":null,"maxVersionRequirement":null,"pingProviders":false},"orchestrationFlags":{"onlyPreferred":false,"overrideStore":true,"externalServiceRequest":false,"enableInterCloud":false,"enableQoS":false,"matchmaking":true,"metadataSearch":false,"triggerInterCloud":false,"pingProviders":false},"preferredProviders":[],"commands":{},"qosRequirements":{}}
+
+Matched response definition:
+{
+  "status" : 200,
+  "bodyFileName" : "orchestrator-orchestration-response-send-notification.json",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+Matched-Stub-Id: [f1d1942f-2e24-4837-aa3a-58b7cdbfccd9]
+
+
+2022-11-06 12:23:35.185  INFO 16412 --- [           main] hu.bme.mit.swsv.itssos.util.Endpoint     : Orchestration response:
+{
+  "response" : [ {
+    "provider" : {
+      "id" : 12,
+      "systemName" : "vehicle_communicator",
+      "address" : "127.0.0.1",
+      "port" : 8889,
+      "createdAt" : "2020-10-25 23:02:58",
+      "updatedAt" : "2020-10-25 23:02:58"
+    },
+    "service" : {
+      "id" : 16,
+      "serviceDefinition" : "send-notification",
+      "createdAt" : "2020-10-25 23:02:58",
+      "updatedAt" : "2020-10-25 23:02:58"
+    },
+    "serviceUri" : "/vehicle-communicator/send-notification",
+    "secure" : "NOT_SECURE",
+    "metadata" : {
+      "http-method" : "POST"
+    },
+    "interfaces" : [ {
+      "id" : 2,
+      "interfaceName" : "HTTP-INSECURE-JSON",
+      "createdAt" : "2020-10-18 00:17:11",
+      "updatedAt" : "2020-10-18 00:17:11"
+    } ],
+    "version" : 1,
+    "authorizationTokens" : null,
+    "warnings" : [ "TTL_UNKNOWN" ]
+  } ]
+}
+2022-11-06 12:23:35.186  INFO 16412 --- [           main] h.b.m.s.i.i.ItsCentralIntegrationTest    : setup: END
+2022-11-06 12:23:35.186  INFO 16412 --- [           main] h.b.m.s.i.i.ItsCentralIntegrationTest    : testItsCentralEcho: START
+2022-11-06 12:23:35.191  INFO 16412 --- [           main] h.b.m.s.i.i.ItsCentralIntegrationTest    : testItsCentralEcho: END
+2022-11-06 12:23:35.203  INFO 16412 --- [           main] w.o.e.jetty.server.AbstractConnector     : Stopped NetworkTrafficServerConnector@224e7aa5{HTTP/1.1,[http/1.1]}{0.0.0.0:8441}
+2022-11-06 12:23:35.203  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Stopped w.o.e.j.s.ServletContextHandler@401d83ce{/,null,UNAVAILABLE}
+2022-11-06 12:23:35.203  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Stopped w.o.e.j.s.ServletContextHandler@30cb489a{/__admin,null,UNAVAILABLE}
+2022-11-06 12:23:35.205  INFO 16412 --- [           main] w.o.e.jetty.server.AbstractConnector     : Stopped NetworkTrafficServerConnector@74070994{HTTP/1.1,[http/1.1]}{0.0.0.0:8443}
+2022-11-06 12:23:35.205  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Stopped w.o.e.j.s.ServletContextHandler@159a0f0e{/,null,UNAVAILABLE}
+2022-11-06 12:23:35.205  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Stopped w.o.e.j.s.ServletContextHandler@2c750b69{/__admin,null,UNAVAILABLE}
+2022-11-06 12:23:35.207  INFO 16412 --- [           main] w.o.e.jetty.server.AbstractConnector     : Stopped NetworkTrafficServerConnector@2784145d{HTTP/1.1,[http/1.1]}{0.0.0.0:8889}
+2022-11-06 12:23:35.207  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Stopped w.o.e.j.s.ServletContextHandler@92775a3{/,null,UNAVAILABLE}
+2022-11-06 12:23:35.207  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Stopped w.o.e.j.s.ServletContextHandler@4a467ada{/__admin,null,UNAVAILABLE}
+2022-11-06 12:23:35.208 Verbose logging enabled
+2022-11-06 12:23:35.223 Verbose logging enabled
+2022-11-06 12:23:35.244 Verbose logging enabled
+2022-11-06 12:23:35.259  INFO 16412 --- [           main] w.org.eclipse.jetty.server.Server        : jetty-9.4.20.v20190813; built: 2019-08-13T21:28:18.144Z; git: 84700530e645e812b336747464d6fbbf370c9a20; jvm 11.0.11+9-LTS-194
+2022-11-06 12:23:35.262  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Started w.o.e.j.s.ServletContextHandler@ad6255e{/__admin,null,AVAILABLE}
+2022-11-06 12:23:35.262  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Started w.o.e.j.s.ServletContextHandler@81a56b2{/,null,AVAILABLE}
+2022-11-06 12:23:35.266  INFO 16412 --- [           main] w.o.e.jetty.server.AbstractConnector     : Started NetworkTrafficServerConnector@3dcf6026{HTTP/1.1,[http/1.1]}{0.0.0.0:8889}
+2022-11-06 12:23:35.266  INFO 16412 --- [           main] w.org.eclipse.jetty.server.Server        : Started @26154ms
+2022-11-06 12:23:35.268  INFO 16412 --- [           main] w.org.eclipse.jetty.server.Server        : jetty-9.4.20.v20190813; built: 2019-08-13T21:28:18.144Z; git: 84700530e645e812b336747464d6fbbf370c9a20; jvm 11.0.11+9-LTS-194
+2022-11-06 12:23:35.270  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Started w.o.e.j.s.ServletContextHandler@729de0e1{/__admin,null,AVAILABLE}
+2022-11-06 12:23:35.270  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Started w.o.e.j.s.ServletContextHandler@2c8c42c{/,null,AVAILABLE}
+2022-11-06 12:23:35.273  INFO 16412 --- [           main] w.o.e.jetty.server.AbstractConnector     : Started NetworkTrafficServerConnector@669e730d{HTTP/1.1,[http/1.1]}{0.0.0.0:8443}
+2022-11-06 12:23:35.273  INFO 16412 --- [           main] w.org.eclipse.jetty.server.Server        : Started @26161ms
+2022-11-06 12:23:35.276  INFO 16412 --- [           main] w.org.eclipse.jetty.server.Server        : jetty-9.4.20.v20190813; built: 2019-08-13T21:28:18.144Z; git: 84700530e645e812b336747464d6fbbf370c9a20; jvm 11.0.11+9-LTS-194
+2022-11-06 12:23:35.279  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Started w.o.e.j.s.ServletContextHandler@662b199{/__admin,null,AVAILABLE}
+2022-11-06 12:23:35.280  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Started w.o.e.j.s.ServletContextHandler@3a678e40{/,null,AVAILABLE}
+2022-11-06 12:23:35.284  INFO 16412 --- [           main] w.o.e.jetty.server.AbstractConnector     : Started NetworkTrafficServerConnector@294ab038{HTTP/1.1,[http/1.1]}{0.0.0.0:8441}
+2022-11-06 12:23:35.284  INFO 16412 --- [           main] w.org.eclipse.jetty.server.Server        : Started @26172ms
+2022-11-06 12:23:35.288  INFO 16412 --- [           main] h.b.m.s.i.i.ItsCentralIntegrationTest    : setup: START
+2022-11-06 12:23:35.288  INFO 16412 --- [           main] .c.s.p.ItsCentralApplicationInitListener : ItsCentralApplicationInitListener custom init started
+2022-11-06 12:23:35.293  INFO 16412 --- [tp510868405-325] w.o.e.j.s.handler.ContextHandler.ROOT    : RequestHandlerClass from context returned com.github.tomakehurst.wiremock.http.StubRequestHandler. Normalized mapped under returned 'null'
+2022-11-06 12:23:35.294 Warning: JSON path expression 'serviceDefinition' failed to match document 'null' because of error 'json string can not be null or empty'
+2022-11-06 12:23:35.294 Warning: JSON path expression 'serviceDefinition' failed to match document 'null' because of error 'json string can not be null or empty'
+2022-11-06 12:23:35.301 Request received:
+127.0.0.1 - GET /serviceregistry/echo
+
+Accept: [text/plain, application/json]
+Connection: [keep-alive]
+User-Agent: [Apache-HttpClient/4.5.12 (Java/11.0.11)]
+Host: [127.0.0.1:8443]
+Accept-Encoding: [gzip,deflate]
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "Got it!",
+  "headers" : {
+    "Content-Type" : "text/plain"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [text/plain]
+Matched-Stub-Id: [adfad723-26c1-48dc-a4d1-31a1474b9aa1]
+
+
+2022-11-06 12:23:35.304  INFO 16412 --- [           main] e.a.c.l.config.ApplicationInitListener   : 'SERVICE_REGISTRY' core system is reachable.
+2022-11-06 12:23:35.315 Request received:
+127.0.0.1 - POST /serviceregistry/register
+
+Accept: [text/plain, application/json]
+Connection: [keep-alive]
+User-Agent: [Apache-HttpClient/4.5.12 (Java/11.0.11)]
+Host: [127.0.0.1:8443]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [310]
+Content-Type: [application/json]
+{"serviceDefinition":"report-train","providerSystem":{"systemName":"its_central","address":"127.0.0.1","port":8888,"authenticationInfo":null},"serviceUri":"/itscentral/report-train","endOfValidity":null,"secure":"NOT_SECURE","metadata":{"http-method":"POST"},"version":null,"interfaces":["HTTP-INSECURE-JSON"]}
+
+Matched response definition:
+{
+  "status" : 200,
+  "bodyFileName" : "serviceregistry-register-response-report-train.json",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+Matched-Stub-Id: [f067c9dc-797a-45f2-bba4-be32df2d9e48]
+
+
+2022-11-06 12:23:35.330 Request received:
+127.0.0.1 - POST /serviceregistry/register
+
+Accept: [text/plain, application/json]
+Connection: [keep-alive]
+User-Agent: [Apache-HttpClient/4.5.12 (Java/11.0.11)]
+Host: [127.0.0.1:8443]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [314]
+Content-Type: [application/json]
+{"serviceDefinition":"report-vehicle","providerSystem":{"systemName":"its_central","address":"127.0.0.1","port":8888,"authenticationInfo":null},"serviceUri":"/itscentral/report-vehicle","endOfValidity":null,"secure":"NOT_SECURE","metadata":{"http-method":"POST"},"version":null,"interfaces":["HTTP-INSECURE-JSON"]}
+
+Matched response definition:
+{
+  "status" : 200,
+  "bodyFileName" : "serviceregistry-register-response-report-vehicle.json",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+Matched-Stub-Id: [85121e95-7d70-4f55-bcab-3088733c848b]
+
+
+2022-11-06 12:23:35.344 Request received:
+127.0.0.1 - POST /serviceregistry/query
+
+Accept: [text/plain, application/json]
+Connection: [keep-alive]
+User-Agent: [Apache-HttpClient/4.5.12 (Java/11.0.11)]
+Host: [127.0.0.1:8443]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [247]
+Content-Type: [application/json]
+{"serviceDefinitionRequirement":"orchestration-service","interfaceRequirements":null,"securityRequirements":null,"metadataRequirements":null,"versionRequirement":null,"minVersionRequirement":null,"maxVersionRequirement":null,"pingProviders":false}
+
+Matched response definition:
+{
+  "status" : 200,
+  "bodyFileName" : "serviceregistry-query-response-orchestration-service.json",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+Matched-Stub-Id: [5c845e8e-0354-4cc4-a25e-2b2d849020c1]
+
+
+2022-11-06 12:23:35.351  INFO 16412 --- [tp311245180-333] w.o.e.j.s.handler.ContextHandler.ROOT    : RequestHandlerClass from context returned com.github.tomakehurst.wiremock.http.StubRequestHandler. Normalized mapped under returned 'null'
+2022-11-06 12:23:35.352 Warning: JSON path expression 'serviceDefinition' failed to match document 'null' because of error 'json string can not be null or empty'
+2022-11-06 12:23:35.352 Warning: JSON path expression 'serviceDefinition' failed to match document 'null' because of error 'json string can not be null or empty'
+2022-11-06 12:23:35.355 Request received:
+127.0.0.1 - GET /orchestrator/echo
+
+Accept: [text/plain, application/json]
+Connection: [keep-alive]
+User-Agent: [Apache-HttpClient/4.5.12 (Java/11.0.11)]
+Host: [127.0.0.1:8441]
+Accept-Encoding: [gzip,deflate]
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "Got it!",
+  "headers" : {
+    "Content-Type" : "text/plain"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [text/plain]
+Matched-Stub-Id: [d2421d98-6080-47b5-9685-224bb71a51ff]
+
+
+2022-11-06 12:23:35.360  INFO 16412 --- [           main] e.a.c.l.config.ApplicationInitListener   : 'ORCHESTRATOR' core system is reachable.
+2022-11-06 12:23:35.369 Request received:
+127.0.0.1 - POST /serviceregistry/query
+
+Accept: [text/plain, application/json]
+Connection: [keep-alive]
+User-Agent: [Apache-HttpClient/4.5.12 (Java/11.0.11)]
+Host: [127.0.0.1:8443]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [247]
+Content-Type: [application/json]
+{"serviceDefinitionRequirement":"orchestration-service","interfaceRequirements":null,"securityRequirements":null,"metadataRequirements":null,"versionRequirement":null,"minVersionRequirement":null,"maxVersionRequirement":null,"pingProviders":false}
+
+Matched response definition:
+{
+  "status" : 200,
+  "bodyFileName" : "serviceregistry-query-response-orchestration-service.json",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+Matched-Stub-Id: [5c845e8e-0354-4cc4-a25e-2b2d849020c1]
+
+
+2022-11-06 12:23:35.373  INFO 16412 --- [           main] hu.bme.mit.swsv.itssos.util.Endpoint     : Orchestration request for send-notification service:
+2022-11-06 12:23:35.374  INFO 16412 --- [           main] hu.bme.mit.swsv.itssos.util.Endpoint     : {
+  "requesterSystem" : {
+    "systemName" : "its_central",
+    "address" : "127.0.0.1",
+    "port" : 8888,
+    "authenticationInfo" : null
+  },
+  "requesterCloud" : null,
+  "requestedService" : {
+    "serviceDefinitionRequirement" : "send-notification",
+    "interfaceRequirements" : [ "HTTP-INSECURE-JSON" ],
+    "securityRequirements" : null,
+    "metadataRequirements" : null,
+    "versionRequirement" : null,
+    "minVersionRequirement" : null,
+    "maxVersionRequirement" : null,
+    "pingProviders" : false
+  },
+  "orchestrationFlags" : {
+    "onlyPreferred" : false,
+    "overrideStore" : true,
+    "externalServiceRequest" : false,
+    "enableInterCloud" : false,
+    "enableQoS" : false,
+    "matchmaking" : true,
+    "metadataSearch" : false,
+    "triggerInterCloud" : false,
+    "pingProviders" : false
+  },
+  "preferredProviders" : [ ],
+  "commands" : { },
+  "qosRequirements" : { }
+}
+2022-11-06 12:23:35.395 Request received:
+127.0.0.1 - POST /orchestrator/orchestration
+
+Accept: [text/plain, application/json]
+Connection: [keep-alive]
+User-Agent: [Apache-HttpClient/4.5.12 (Java/11.0.11)]
+Host: [127.0.0.1:8441]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [700]
+Content-Type: [application/json]
+{"requesterSystem":{"systemName":"its_central","address":"127.0.0.1","port":8888,"authenticationInfo":null},"requesterCloud":null,"requestedService":{"serviceDefinitionRequirement":"send-notification","interfaceRequirements":["HTTP-INSECURE-JSON"],"securityRequirements":null,"metadataRequirements":null,"versionRequirement":null,"minVersionRequirement":null,"maxVersionRequirement":null,"pingProviders":false},"orchestrationFlags":{"onlyPreferred":false,"overrideStore":true,"externalServiceRequest":false,"enableInterCloud":false,"enableQoS":false,"matchmaking":true,"metadataSearch":false,"triggerInterCloud":false,"pingProviders":false},"preferredProviders":[],"commands":{},"qosRequirements":{}}
+
+Matched response definition:
+{
+  "status" : 200,
+  "bodyFileName" : "orchestrator-orchestration-response-send-notification.json",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+Matched-Stub-Id: [fdc18a2e-b3c6-4a17-b787-80392b909718]
+
+
+2022-11-06 12:23:35.402  INFO 16412 --- [           main] hu.bme.mit.swsv.itssos.util.Endpoint     : Orchestration response:
+{
+  "response" : [ {
+    "provider" : {
+      "id" : 12,
+      "systemName" : "vehicle_communicator",
+      "address" : "127.0.0.1",
+      "port" : 8889,
+      "createdAt" : "2020-10-25 23:02:58",
+      "updatedAt" : "2020-10-25 23:02:58"
+    },
+    "service" : {
+      "id" : 16,
+      "serviceDefinition" : "send-notification",
+      "createdAt" : "2020-10-25 23:02:58",
+      "updatedAt" : "2020-10-25 23:02:58"
+    },
+    "serviceUri" : "/vehicle-communicator/send-notification",
+    "secure" : "NOT_SECURE",
+    "metadata" : {
+      "http-method" : "POST"
+    },
+    "interfaces" : [ {
+      "id" : 2,
+      "interfaceName" : "HTTP-INSECURE-JSON",
+      "createdAt" : "2020-10-18 00:17:11",
+      "updatedAt" : "2020-10-18 00:17:11"
+    } ],
+    "version" : 1,
+    "authorizationTokens" : null,
+    "warnings" : [ "TTL_UNKNOWN" ]
+  } ]
+}
+2022-11-06 12:23:35.402  INFO 16412 --- [           main] h.b.m.s.i.i.ItsCentralIntegrationTest    : setup: END
+2022-11-06 12:23:35.402  INFO 16412 --- [           main] h.b.m.s.i.i.ItsCentralIntegrationTest    : SendDirectNotification: START
+2022-11-06 12:23:35.417  INFO 16412 --- [0.1-8888-exec-3] h.b.m.s.i.i.ItsCentralController         : ReportVehicleRequestDto{registrationNumber='1', message=ARRIVING}
+2022-11-06 12:23:35.432  INFO 16412 --- [0.1-8888-exec-4] h.b.m.s.i.i.ItsCentralController         : ReportTrainRequestDto{sensor=PROXIMITY, message=ARRIVING}
+2022-11-06 12:23:35.433  INFO 16412 --- [0.1-8888-exec-4] hu.bme.mit.swsv.itssos.util.Endpoint     : Request:
+{
+  "registrationNumber" : null,
+  "level" : "STOP"
+}
+2022-11-06 12:23:35.449  INFO 16412 --- [ qtp4008846-317] w.o.e.j.s.handler.ContextHandler.ROOT    : RequestHandlerClass from context returned com.github.tomakehurst.wiremock.http.StubRequestHandler. Normalized mapped under returned 'null'
+2022-11-06 12:23:35.454 Request received:
+127.0.0.1 - POST /vehicle-communicator/send-notification
+
+Accept: [text/plain, application/json]
+Connection: [keep-alive]
+User-Agent: [Apache-HttpClient/4.5.12 (Java/11.0.11)]
+Host: [127.0.0.1:8889]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [42]
+Content-Type: [application/json]
+{"registrationNumber":null,"level":"STOP"}
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "OK"
+}
+
+Response:
+HTTP/1.1 200
+Matched-Stub-Id: [adbc0193-6cab-4e59-9c96-ee77c31e40a8]
+
+
+2022-11-06 12:23:35.457  INFO 16412 --- [0.1-8888-exec-4] hu.bme.mit.swsv.itssos.util.Endpoint     : Provider response:
+"OK"
+2022-11-06 12:23:35.469  INFO 16412 --- [0.1-8888-exec-5] h.b.m.s.i.i.ItsCentralController         : ReportTrainRequestDto{sensor=TIMETABLE, message=ARRIVING}
+2022-11-06 12:23:35.470  INFO 16412 --- [0.1-8888-exec-5] hu.bme.mit.swsv.itssos.util.Endpoint     : Request:
+{
+  "registrationNumber" : null,
+  "level" : "TRAIN_MIGHT_ARRIVE"
+}
+2022-11-06 12:23:35.479 Request received:
+127.0.0.1 - POST /vehicle-communicator/send-notification
+
+Accept: [text/plain, application/json]
+Connection: [keep-alive]
+User-Agent: [Apache-HttpClient/4.5.12 (Java/11.0.11)]
+Host: [127.0.0.1:8889]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [56]
+Content-Type: [application/json]
+{"registrationNumber":null,"level":"TRAIN_MIGHT_ARRIVE"}
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "OK"
+}
+
+Response:
+HTTP/1.1 200
+Matched-Stub-Id: [adbc0193-6cab-4e59-9c96-ee77c31e40a8]
+
+
+2022-11-06 12:23:35.482  INFO 16412 --- [0.1-8888-exec-5] hu.bme.mit.swsv.itssos.util.Endpoint     : Provider response:
+"OK"
+2022-11-06 12:23:35.488  INFO 16412 --- [0.1-8888-exec-6] h.b.m.s.i.i.ItsCentralController         : ReportTrainRequestDto{sensor=PROXIMITY, message=LEFT}
+2022-11-06 12:23:35.489  INFO 16412 --- [0.1-8888-exec-6] hu.bme.mit.swsv.itssos.util.Endpoint     : Request:
+{
+  "registrationNumber" : null,
+  "level" : "PASS_SLOWLY"
+}
+2022-11-06 12:23:35.498 Request received:
+127.0.0.1 - POST /vehicle-communicator/send-notification
+
+Accept: [text/plain, application/json]
+Connection: [keep-alive]
+User-Agent: [Apache-HttpClient/4.5.12 (Java/11.0.11)]
+Host: [127.0.0.1:8889]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [49]
+Content-Type: [application/json]
+{"registrationNumber":null,"level":"PASS_SLOWLY"}
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "OK"
+}
+
+Response:
+HTTP/1.1 200
+Matched-Stub-Id: [adbc0193-6cab-4e59-9c96-ee77c31e40a8]
+
+
+2022-11-06 12:23:35.501  INFO 16412 --- [0.1-8888-exec-6] hu.bme.mit.swsv.itssos.util.Endpoint     : Provider response:
+"OK"
+2022-11-06 12:23:35.512  INFO 16412 --- [           main] h.b.m.s.i.i.ItsCentralIntegrationTest    : SendDirectNotification: END
+2022-11-06 12:23:35.523  INFO 16412 --- [           main] w.o.e.jetty.server.AbstractConnector     : Stopped NetworkTrafficServerConnector@294ab038{HTTP/1.1,[http/1.1]}{0.0.0.0:8441}
+2022-11-06 12:23:35.524  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Stopped w.o.e.j.s.ServletContextHandler@3a678e40{/,null,UNAVAILABLE}
+2022-11-06 12:23:35.524  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Stopped w.o.e.j.s.ServletContextHandler@662b199{/__admin,null,UNAVAILABLE}
+2022-11-06 12:23:35.526  INFO 16412 --- [           main] w.o.e.jetty.server.AbstractConnector     : Stopped NetworkTrafficServerConnector@669e730d{HTTP/1.1,[http/1.1]}{0.0.0.0:8443}
+2022-11-06 12:23:35.526  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Stopped w.o.e.j.s.ServletContextHandler@2c8c42c{/,null,UNAVAILABLE}
+2022-11-06 12:23:35.527  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Stopped w.o.e.j.s.ServletContextHandler@729de0e1{/__admin,null,UNAVAILABLE}
+2022-11-06 12:23:35.528  INFO 16412 --- [           main] w.o.e.jetty.server.AbstractConnector     : Stopped NetworkTrafficServerConnector@3dcf6026{HTTP/1.1,[http/1.1]}{0.0.0.0:8889}
+2022-11-06 12:23:35.529  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Stopped w.o.e.j.s.ServletContextHandler@81a56b2{/,null,UNAVAILABLE}
+2022-11-06 12:23:35.529  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Stopped w.o.e.j.s.ServletContextHandler@ad6255e{/__admin,null,UNAVAILABLE}
+2022-11-06 12:23:35.530 Verbose logging enabled
+2022-11-06 12:23:35.554 Verbose logging enabled
+2022-11-06 12:23:35.570 Verbose logging enabled
+2022-11-06 12:23:35.604  INFO 16412 --- [           main] w.org.eclipse.jetty.server.Server        : jetty-9.4.20.v20190813; built: 2019-08-13T21:28:18.144Z; git: 84700530e645e812b336747464d6fbbf370c9a20; jvm 11.0.11+9-LTS-194
+2022-11-06 12:23:35.606  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Started w.o.e.j.s.ServletContextHandler@434a2a10{/__admin,null,AVAILABLE}
+2022-11-06 12:23:35.606  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Started w.o.e.j.s.ServletContextHandler@6debf1b8{/,null,AVAILABLE}
+2022-11-06 12:23:35.611  INFO 16412 --- [           main] w.o.e.jetty.server.AbstractConnector     : Started NetworkTrafficServerConnector@682482ee{HTTP/1.1,[http/1.1]}{0.0.0.0:8889}
+2022-11-06 12:23:35.611  INFO 16412 --- [           main] w.org.eclipse.jetty.server.Server        : Started @26499ms
+2022-11-06 12:23:35.616  INFO 16412 --- [           main] w.org.eclipse.jetty.server.Server        : jetty-9.4.20.v20190813; built: 2019-08-13T21:28:18.144Z; git: 84700530e645e812b336747464d6fbbf370c9a20; jvm 11.0.11+9-LTS-194
+2022-11-06 12:23:35.621  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Started w.o.e.j.s.ServletContextHandler@6e5df971{/__admin,null,AVAILABLE}
+2022-11-06 12:23:35.621  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Started w.o.e.j.s.ServletContextHandler@3c7787a7{/,null,AVAILABLE}
+2022-11-06 12:23:35.626  INFO 16412 --- [           main] w.o.e.jetty.server.AbstractConnector     : Started NetworkTrafficServerConnector@495e1ad1{HTTP/1.1,[http/1.1]}{0.0.0.0:8443}
+2022-11-06 12:23:35.626  INFO 16412 --- [           main] w.org.eclipse.jetty.server.Server        : Started @26513ms
+2022-11-06 12:23:35.628  INFO 16412 --- [           main] w.org.eclipse.jetty.server.Server        : jetty-9.4.20.v20190813; built: 2019-08-13T21:28:18.144Z; git: 84700530e645e812b336747464d6fbbf370c9a20; jvm 11.0.11+9-LTS-194
+2022-11-06 12:23:35.630  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Started w.o.e.j.s.ServletContextHandler@46878216{/__admin,null,AVAILABLE}
+2022-11-06 12:23:35.632  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Started w.o.e.j.s.ServletContextHandler@2b69ff13{/,null,AVAILABLE}
+2022-11-06 12:23:35.635  INFO 16412 --- [           main] w.o.e.jetty.server.AbstractConnector     : Started NetworkTrafficServerConnector@2f2a5064{HTTP/1.1,[http/1.1]}{0.0.0.0:8441}
+2022-11-06 12:23:35.636  INFO 16412 --- [           main] w.org.eclipse.jetty.server.Server        : Started @26524ms
+2022-11-06 12:23:35.643  INFO 16412 --- [           main] h.b.m.s.i.i.ItsCentralIntegrationTest    : setup: START
+2022-11-06 12:23:35.643  INFO 16412 --- [           main] .c.s.p.ItsCentralApplicationInitListener : ItsCentralApplicationInitListener custom init started
+2022-11-06 12:23:35.652  INFO 16412 --- [p1879362884-350] w.o.e.j.s.handler.ContextHandler.ROOT    : RequestHandlerClass from context returned com.github.tomakehurst.wiremock.http.StubRequestHandler. Normalized mapped under returned 'null'
+2022-11-06 12:23:35.653 Warning: JSON path expression 'serviceDefinition' failed to match document 'null' because of error 'json string can not be null or empty'
+2022-11-06 12:23:35.654 Warning: JSON path expression 'serviceDefinition' failed to match document 'null' because of error 'json string can not be null or empty'
+2022-11-06 12:23:35.657 Request received:
+127.0.0.1 - GET /serviceregistry/echo
+
+Accept: [text/plain, application/json]
+Connection: [keep-alive]
+User-Agent: [Apache-HttpClient/4.5.12 (Java/11.0.11)]
+Host: [127.0.0.1:8443]
+Accept-Encoding: [gzip,deflate]
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "Got it!",
+  "headers" : {
+    "Content-Type" : "text/plain"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [text/plain]
+Matched-Stub-Id: [c3349bbc-1ec9-4bf8-8e06-b1562e2bea80]
+
+
+2022-11-06 12:23:35.660  INFO 16412 --- [           main] e.a.c.l.config.ApplicationInitListener   : 'SERVICE_REGISTRY' core system is reachable.
+2022-11-06 12:23:35.680 Request received:
+127.0.0.1 - POST /serviceregistry/register
+
+Accept: [text/plain, application/json]
+Connection: [keep-alive]
+User-Agent: [Apache-HttpClient/4.5.12 (Java/11.0.11)]
+Host: [127.0.0.1:8443]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [310]
+Content-Type: [application/json]
+{"serviceDefinition":"report-train","providerSystem":{"systemName":"its_central","address":"127.0.0.1","port":8888,"authenticationInfo":null},"serviceUri":"/itscentral/report-train","endOfValidity":null,"secure":"NOT_SECURE","metadata":{"http-method":"POST"},"version":null,"interfaces":["HTTP-INSECURE-JSON"]}
+
+Matched response definition:
+{
+  "status" : 200,
+  "bodyFileName" : "serviceregistry-register-response-report-train.json",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+Matched-Stub-Id: [47bd5bd8-96c8-4c26-b922-9d68ddf911d0]
+
+
+2022-11-06 12:23:35.696 Request received:
+127.0.0.1 - POST /serviceregistry/register
+
+Accept: [text/plain, application/json]
+Connection: [keep-alive]
+User-Agent: [Apache-HttpClient/4.5.12 (Java/11.0.11)]
+Host: [127.0.0.1:8443]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [314]
+Content-Type: [application/json]
+{"serviceDefinition":"report-vehicle","providerSystem":{"systemName":"its_central","address":"127.0.0.1","port":8888,"authenticationInfo":null},"serviceUri":"/itscentral/report-vehicle","endOfValidity":null,"secure":"NOT_SECURE","metadata":{"http-method":"POST"},"version":null,"interfaces":["HTTP-INSECURE-JSON"]}
+
+Matched response definition:
+{
+  "status" : 200,
+  "bodyFileName" : "serviceregistry-register-response-report-vehicle.json",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+Matched-Stub-Id: [f55dc20b-a004-45d9-beff-bd4596339557]
+
+
+2022-11-06 12:23:35.710 Request received:
+127.0.0.1 - POST /serviceregistry/query
+
+Accept: [text/plain, application/json]
+Connection: [keep-alive]
+User-Agent: [Apache-HttpClient/4.5.12 (Java/11.0.11)]
+Host: [127.0.0.1:8443]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [247]
+Content-Type: [application/json]
+{"serviceDefinitionRequirement":"orchestration-service","interfaceRequirements":null,"securityRequirements":null,"metadataRequirements":null,"versionRequirement":null,"minVersionRequirement":null,"maxVersionRequirement":null,"pingProviders":false}
+
+Matched response definition:
+{
+  "status" : 200,
+  "bodyFileName" : "serviceregistry-query-response-orchestration-service.json",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+Matched-Stub-Id: [4e77a014-ca2a-4043-98b5-dc34ac4855f9]
+
+
+2022-11-06 12:23:35.722  INFO 16412 --- [tp179258229-359] w.o.e.j.s.handler.ContextHandler.ROOT    : RequestHandlerClass from context returned com.github.tomakehurst.wiremock.http.StubRequestHandler. Normalized mapped under returned 'null'
+2022-11-06 12:23:35.723 Warning: JSON path expression 'serviceDefinition' failed to match document 'null' because of error 'json string can not be null or empty'
+2022-11-06 12:23:35.724 Warning: JSON path expression 'serviceDefinition' failed to match document 'null' because of error 'json string can not be null or empty'
+2022-11-06 12:23:35.728 Request received:
+127.0.0.1 - GET /orchestrator/echo
+
+Accept: [text/plain, application/json]
+Connection: [keep-alive]
+User-Agent: [Apache-HttpClient/4.5.12 (Java/11.0.11)]
+Host: [127.0.0.1:8441]
+Accept-Encoding: [gzip,deflate]
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "Got it!",
+  "headers" : {
+    "Content-Type" : "text/plain"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [text/plain]
+Matched-Stub-Id: [262fbad5-48d6-4d91-96ba-d2891478785a]
+
+
+2022-11-06 12:23:35.733  INFO 16412 --- [           main] e.a.c.l.config.ApplicationInitListener   : 'ORCHESTRATOR' core system is reachable.
+2022-11-06 12:23:35.743 Request received:
+127.0.0.1 - POST /serviceregistry/query
+
+Accept: [text/plain, application/json]
+Connection: [keep-alive]
+User-Agent: [Apache-HttpClient/4.5.12 (Java/11.0.11)]
+Host: [127.0.0.1:8443]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [247]
+Content-Type: [application/json]
+{"serviceDefinitionRequirement":"orchestration-service","interfaceRequirements":null,"securityRequirements":null,"metadataRequirements":null,"versionRequirement":null,"minVersionRequirement":null,"maxVersionRequirement":null,"pingProviders":false}
+
+Matched response definition:
+{
+  "status" : 200,
+  "bodyFileName" : "serviceregistry-query-response-orchestration-service.json",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+Matched-Stub-Id: [4e77a014-ca2a-4043-98b5-dc34ac4855f9]
+
+
+2022-11-06 12:23:35.747  INFO 16412 --- [           main] hu.bme.mit.swsv.itssos.util.Endpoint     : Orchestration request for send-notification service:
+2022-11-06 12:23:35.749  INFO 16412 --- [           main] hu.bme.mit.swsv.itssos.util.Endpoint     : {
+  "requesterSystem" : {
+    "systemName" : "its_central",
+    "address" : "127.0.0.1",
+    "port" : 8888,
+    "authenticationInfo" : null
+  },
+  "requesterCloud" : null,
+  "requestedService" : {
+    "serviceDefinitionRequirement" : "send-notification",
+    "interfaceRequirements" : [ "HTTP-INSECURE-JSON" ],
+    "securityRequirements" : null,
+    "metadataRequirements" : null,
+    "versionRequirement" : null,
+    "minVersionRequirement" : null,
+    "maxVersionRequirement" : null,
+    "pingProviders" : false
+  },
+  "orchestrationFlags" : {
+    "onlyPreferred" : false,
+    "overrideStore" : true,
+    "externalServiceRequest" : false,
+    "enableInterCloud" : false,
+    "enableQoS" : false,
+    "matchmaking" : true,
+    "metadataSearch" : false,
+    "triggerInterCloud" : false,
+    "pingProviders" : false
+  },
+  "preferredProviders" : [ ],
+  "commands" : { },
+  "qosRequirements" : { }
+}
+2022-11-06 12:23:35.760 Request received:
+127.0.0.1 - POST /orchestrator/orchestration
+
+Accept: [text/plain, application/json]
+Connection: [keep-alive]
+User-Agent: [Apache-HttpClient/4.5.12 (Java/11.0.11)]
+Host: [127.0.0.1:8441]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [700]
+Content-Type: [application/json]
+{"requesterSystem":{"systemName":"its_central","address":"127.0.0.1","port":8888,"authenticationInfo":null},"requesterCloud":null,"requestedService":{"serviceDefinitionRequirement":"send-notification","interfaceRequirements":["HTTP-INSECURE-JSON"],"securityRequirements":null,"metadataRequirements":null,"versionRequirement":null,"minVersionRequirement":null,"maxVersionRequirement":null,"pingProviders":false},"orchestrationFlags":{"onlyPreferred":false,"overrideStore":true,"externalServiceRequest":false,"enableInterCloud":false,"enableQoS":false,"matchmaking":true,"metadataSearch":false,"triggerInterCloud":false,"pingProviders":false},"preferredProviders":[],"commands":{},"qosRequirements":{}}
+
+Matched response definition:
+{
+  "status" : 200,
+  "bodyFileName" : "orchestrator-orchestration-response-send-notification.json",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+Matched-Stub-Id: [76ca3e4b-8d5c-4d44-9ea6-f6f1abd7233e]
+
+
+2022-11-06 12:23:35.764  INFO 16412 --- [           main] hu.bme.mit.swsv.itssos.util.Endpoint     : Orchestration response:
+{
+  "response" : [ {
+    "provider" : {
+      "id" : 12,
+      "systemName" : "vehicle_communicator",
+      "address" : "127.0.0.1",
+      "port" : 8889,
+      "createdAt" : "2020-10-25 23:02:58",
+      "updatedAt" : "2020-10-25 23:02:58"
+    },
+    "service" : {
+      "id" : 16,
+      "serviceDefinition" : "send-notification",
+      "createdAt" : "2020-10-25 23:02:58",
+      "updatedAt" : "2020-10-25 23:02:58"
+    },
+    "serviceUri" : "/vehicle-communicator/send-notification",
+    "secure" : "NOT_SECURE",
+    "metadata" : {
+      "http-method" : "POST"
+    },
+    "interfaces" : [ {
+      "id" : 2,
+      "interfaceName" : "HTTP-INSECURE-JSON",
+      "createdAt" : "2020-10-18 00:17:11",
+      "updatedAt" : "2020-10-18 00:17:11"
+    } ],
+    "version" : 1,
+    "authorizationTokens" : null,
+    "warnings" : [ "TTL_UNKNOWN" ]
+  } ]
+}
+2022-11-06 12:23:35.764  INFO 16412 --- [           main] h.b.m.s.i.i.ItsCentralIntegrationTest    : setup: END
+2022-11-06 12:23:35.765  INFO 16412 --- [           main] h.b.m.s.i.i.ItsCentralIntegrationTest    : SendTrainMightArriveToCarAfterDetect: START
+2022-11-06 12:23:35.770  INFO 16412 --- [0.1-8888-exec-7] h.b.m.s.i.i.ItsCentralController         : ReportVehicleRequestDto{registrationNumber='1', message=ARRIVING}
+2022-11-06 12:23:35.775  INFO 16412 --- [0.1-8888-exec-8] h.b.m.s.i.i.ItsCentralController         : ReportTrainRequestDto{sensor=TIMETABLE, message=ARRIVING}
+2022-11-06 12:23:35.776  INFO 16412 --- [0.1-8888-exec-8] hu.bme.mit.swsv.itssos.util.Endpoint     : Request:
+{
+  "registrationNumber" : null,
+  "level" : "TRAIN_MIGHT_ARRIVE"
+}
+2022-11-06 12:23:35.782  INFO 16412 --- [qtp76017194-343] w.o.e.j.s.handler.ContextHandler.ROOT    : RequestHandlerClass from context returned com.github.tomakehurst.wiremock.http.StubRequestHandler. Normalized mapped under returned 'null'
+2022-11-06 12:23:35.786 Request received:
+127.0.0.1 - POST /vehicle-communicator/send-notification
+
+Accept: [text/plain, application/json]
+Connection: [keep-alive]
+User-Agent: [Apache-HttpClient/4.5.12 (Java/11.0.11)]
+Host: [127.0.0.1:8889]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [56]
+Content-Type: [application/json]
+{"registrationNumber":null,"level":"TRAIN_MIGHT_ARRIVE"}
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "OK"
+}
+
+Response:
+HTTP/1.1 200
+Matched-Stub-Id: [6bfe5209-da48-4c6f-8646-6c7d8104ba63]
+
+
+2022-11-06 12:23:35.788  INFO 16412 --- [0.1-8888-exec-8] hu.bme.mit.swsv.itssos.util.Endpoint     : Provider response:
+"OK"
+2022-11-06 12:23:35.795  INFO 16412 --- [           main] h.b.m.s.i.i.ItsCentralIntegrationTest    : SendTrainMightArriveToCarAfterDetect: END
+2022-11-06 12:23:35.803  INFO 16412 --- [           main] w.o.e.jetty.server.AbstractConnector     : Stopped NetworkTrafficServerConnector@2f2a5064{HTTP/1.1,[http/1.1]}{0.0.0.0:8441}
+2022-11-06 12:23:35.803  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Stopped w.o.e.j.s.ServletContextHandler@2b69ff13{/,null,UNAVAILABLE}
+2022-11-06 12:23:35.803  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Stopped w.o.e.j.s.ServletContextHandler@46878216{/__admin,null,UNAVAILABLE}
+2022-11-06 12:23:35.805  INFO 16412 --- [           main] w.o.e.jetty.server.AbstractConnector     : Stopped NetworkTrafficServerConnector@495e1ad1{HTTP/1.1,[http/1.1]}{0.0.0.0:8443}
+2022-11-06 12:23:35.805  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Stopped w.o.e.j.s.ServletContextHandler@3c7787a7{/,null,UNAVAILABLE}
+2022-11-06 12:23:35.806  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Stopped w.o.e.j.s.ServletContextHandler@6e5df971{/__admin,null,UNAVAILABLE}
+2022-11-06 12:23:35.807  INFO 16412 --- [           main] w.o.e.jetty.server.AbstractConnector     : Stopped NetworkTrafficServerConnector@682482ee{HTTP/1.1,[http/1.1]}{0.0.0.0:8889}
+2022-11-06 12:23:35.807  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Stopped w.o.e.j.s.ServletContextHandler@6debf1b8{/,null,UNAVAILABLE}
+2022-11-06 12:23:35.807  INFO 16412 --- [           main] w.o.e.j.server.handler.ContextHandler    : Stopped w.o.e.j.s.ServletContextHandler@434a2a10{/__admin,null,UNAVAILABLE}
+2022-11-06 12:23:35.962  INFO 16412 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-11-06 12:23:38.020 ERROR 16412 --- [extShutdownHook] eu.arrowhead.common.http.HttpService     : UnavailableServerException occurred at http://127.0.0.1:8443/serviceregistry/unregister?system_name=its_central&address=127.0.0.1&port=8888&service_definition=report-train
+2022-11-06 12:23:38.027  WARN 16412 --- [extShutdownHook] .s.c.a.CommonAnnotationBeanPostProcessor : Destroy method on bean with name 'ItsCentralApplicationInitListener' threw an exception: eu.arrowhead.common.exception.UnavailableServerException: Could not get any response from: http://127.0.0.1:8443/serviceregistry/unregister?system_name=its_central&address=127.0.0.1&port=8888&service_definition=report-train

@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/orchestrator/echo"
+  },
+  "response": {
+    "status": 200,
+    "body": "Got it!",
+    "headers": {
+      "Content-Type": "text/plain"
+    }
+  }
+}

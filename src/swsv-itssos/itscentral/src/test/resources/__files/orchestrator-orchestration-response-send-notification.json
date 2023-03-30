@@ -1,0 +1,38 @@
+{
+  "response": [
+    {
+      "provider": {
+        "id": 12,
+        "systemName": "vehicle_communicator",
+        "address": "127.0.0.1",
+        "port": 8889,
+        "createdAt": "2020-10-25 23:02:58",
+        "updatedAt": "2020-10-25 23:02:58"
+      },
+      "service": {
+        "id": 16,
+        "serviceDefinition": "send-notification",
+        "createdAt": "2020-10-25 23:02:58",
+        "updatedAt": "2020-10-25 23:02:58"
+      },
+      "serviceUri": "/vehicle-communicator/send-notification",
+      "secure": "NOT_SECURE",
+      "metadata": {
+        "http-method": "POST"
+      },
+      "interfaces": [
+        {
+          "id": 2,
+          "interfaceName": "HTTP-INSECURE-JSON",
+          "createdAt": "2020-10-18 00:17:11",
+          "updatedAt": "2020-10-18 00:17:11"
+        }
+      ],
+      "version": 1,
+      "authorizationTokens": null,
+      "warnings": [
+        "TTL_UNKNOWN"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": 169,
+  "serviceDefinition": {
+    "id": 17,
+    "serviceDefinition": "report-vehicle",
+    "createdAt": "2020-10-28 00:27:36",
+    "updatedAt": "2020-10-28 00:27:36"
+  },
+  "provider": {
+    "id": 4,
+    "systemName": "its_central",
+    "address": "127.0.0.1",
+    "port": 8888,
+    "createdAt": "2020-10-18 00:21:28",
+    "updatedAt": "2020-10-18 00:21:28"
+  },
+  "serviceUri": "/itscentral/report-vehicle",
+  "secure": "NOT_SECURE",
+  "metadata": {
+    "http-method": "POST"
+  },
+  "version": 1,
+  "interfaces": [
+    {
+      "id": 2,
+      "interfaceName": "HTTP-INSECURE-JSON",
+      "createdAt": "2020-10-18 00:17:11",
+      "updatedAt": "2020-10-18 00:17:11"
+    }
+  ],
+  "createdAt": "2020-10-28 00:46:31",
+  "updatedAt": "2020-10-28 00:46:31"
+}

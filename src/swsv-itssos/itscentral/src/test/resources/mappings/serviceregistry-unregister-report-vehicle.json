@@ -1,0 +1,9 @@
+{
+  "request": {
+    "method": "DELETE",
+    "url": "/serviceregistry/unregister?system_name=its_central&address=127.0.0.1&port=8888&service_definition=report-vehicle"
+  },
+  "response": {
+    "status": 200
+  }
+}

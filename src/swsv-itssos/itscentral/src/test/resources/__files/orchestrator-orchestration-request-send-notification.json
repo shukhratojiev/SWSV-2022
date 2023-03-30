@@ -1,0 +1,33 @@
+{
+  "requesterSystem" : {
+    "systemName" : "its_central",
+    "address" : "127.0.0.1",
+    "port" : 8888,
+    "authenticationInfo" : null
+  },
+  "requesterCloud" : null,
+  "requestedService" : {
+    "serviceDefinitionRequirement" : "send-notification",
+    "interfaceRequirements" : [ "HTTP-INSECURE-JSON" ],
+    "securityRequirements" : null,
+    "metadataRequirements" : null,
+    "versionRequirement" : null,
+    "minVersionRequirement" : null,
+    "maxVersionRequirement" : null,
+    "pingProviders" : false
+  },
+  "orchestrationFlags" : {
+    "onlyPreferred" : false,
+    "overrideStore" : true,
+    "externalServiceRequest" : false,
+    "enableInterCloud" : false,
+    "enableQoS" : false,
+    "matchmaking" : true,
+    "metadataSearch" : false,
+    "triggerInterCloud" : false,
+    "pingProviders" : false
+  },
+  "preferredProviders" : [ ],
+  "commands" : { },
+  "qosRequirements" : { }
+}

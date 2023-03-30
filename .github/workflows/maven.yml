@@ -1,0 +1,32 @@
+# https://docs.github.com/en/free-pro-team@latest/actions/guides/building-and-testing-java-with-maven
+name: Maven CI
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-20.04
+    timeout-minutes: 5
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up JDK 11
+        uses: actions/setup-java@v1
+        with:
+          java-version: 11
+      - name: Cache Maven packages
+        uses: actions/cache@v2
+        with:
+          path: ~/.m2
+          key: ${{ runner.os }}-m2-${{ hashFiles('**/pom.xml') }}
+          restore-keys: ${{ runner.os }}-m2
+      - name: Build and verify with Maven
+        run: |
+          cd src/swsv-itssos
+          mvn -B clean verify --fail-at-end
+      - name: Run GraphWalker
+        run: |
+          cd src/swsv-itssos
+          mvn -B install -DskipTests
+          cd itscentral-logic
+          mvn -B org.graphwalker:graphwalker-maven-plugin:test

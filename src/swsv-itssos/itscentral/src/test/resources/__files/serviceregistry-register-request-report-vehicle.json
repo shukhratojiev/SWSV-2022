@@ -1,0 +1,19 @@
+{
+  "serviceDefinition": "report-vehicle",
+  "providerSystem": {
+    "systemName": "its_central",
+    "address": "127.0.0.1",
+    "port": 8888,
+    "authenticationInfo": null
+  },
+  "serviceUri": "/itscentral/report-vehicle",
+  "endOfValidity": null,
+  "secure": "NOT_SECURE",
+  "metadata": {
+    "http-method": "POST"
+  },
+  "version": null,
+  "interfaces": [
+    "HTTP-INSECURE-JSON"
+  ]
+}

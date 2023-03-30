@@ -1,0 +1,214 @@
+{
+    "models": [
+        {
+            "name": "ItsCentralModel",
+            "id": "7527a000-0621-11ea-94f9-a5a2e9522f01",
+            "generator": "random(edge_coverage(100))",
+            "actions": [],
+            "vertices": [
+                {
+                    "id": "0dbe5c30-0624-11ea-94f9-a5a2e9522f01",
+                    "name": "v_initialized",
+                    "actions": [],
+                    "requirements": [],
+                    "properties": {
+                        "x": 416.1076024669036,
+                        "y": 136.0529352549961
+                    }
+                },
+                {
+                    "id": "2811b8d0-0628-11ea-94f9-a5a2e9522f01",
+                    "name": "v_init",
+                    "actions": [],
+                    "requirements": [],
+                    "properties": {
+                        "x": 414,
+                        "y": 5
+                    }
+                },
+                {
+                    "id": "2a8e1bd3-1110-4a21-be46-2388ef8144f0",
+                    "name": "v_proximityRegister",
+                    "actions": [],
+                    "requirements": [],
+                    "properties": {
+                        "x": 72.49938276692549,
+                        "y": 240.76288119352537
+                    }
+                },
+                {
+                    "id": "bf543885-6a8e-4d10-9720-92782bbf94ed",
+                    "name": "v_proximityLeft",
+                    "actions": [],
+                    "requirements": [],
+                    "properties": {
+                        "x": 329.09286517514863,
+                        "y": 417.9523486172066
+                    }
+                },
+                {
+                    "id": "7f93d1ad-0797-432a-a36b-e89a8d3a100e",
+                    "name": "v_proximityArriving",
+                    "actions": [],
+                    "requirements": [],
+                    "properties": {
+                        "x": 165.90647507835953,
+                        "y": 356.6788001747386
+                    }
+                },
+                {
+                    "id": "208854e5-4c79-4393-889b-21b4ea5cade4",
+                    "name": "v_timetableRegister",
+                    "actions": [],
+                    "requirements": [],
+                    "properties": {
+                        "x": 552.6255209701834,
+                        "y": 415.557445189633
+                    }
+                },
+                {
+                    "id": "ff1eb730-6b59-4772-beba-563644302e73",
+                    "name": "v_timetableArriving",
+                    "actions": [],
+                    "requirements": [],
+                    "properties": {
+                        "x": 741.1548048910437,
+                        "y": 347.44363938596723
+                    }
+                },
+                {
+                    "id": "8370e325-3fbf-4804-acb6-0142b25aa726",
+                    "name": "v_timetableLeft",
+                    "actions": [],
+                    "requirements": [],
+                    "properties": {
+                        "x": 825.0807441848461,
+                        "y": 227.02816126877255
+                    }
+                }
+            ],
+            "edges": [
+                {
+                    "id": "32f09eb0-0628-11ea-94f9-a5a2e9522f01",
+                    "name": "e_init",
+                    "actions": [],
+                    "requirements": [],
+                    "properties": [],
+                    "sourceVertexId": "2811b8d0-0628-11ea-94f9-a5a2e9522f01",
+                    "targetVertexId": "0dbe5c30-0624-11ea-94f9-a5a2e9522f01"
+                },
+                {
+                    "id": "db1fd3c8-3d14-4143-beb0-15c07ec6d1b7",
+                    "name": "e_proximityRegister",
+                    "actions": [],
+                    "requirements": [],
+                    "properties": [],
+                    "sourceVertexId": "0dbe5c30-0624-11ea-94f9-a5a2e9522f01",
+                    "targetVertexId": "2a8e1bd3-1110-4a21-be46-2388ef8144f0"
+                },
+                {
+                    "id": "5e03b20f-8578-4776-93da-fe1f5de78455",
+                    "name": "e_proximityLeft",
+                    "actions": [],
+                    "requirements": [],
+                    "properties": [],
+                    "sourceVertexId": "0dbe5c30-0624-11ea-94f9-a5a2e9522f01",
+                    "targetVertexId": "bf543885-6a8e-4d10-9720-92782bbf94ed"
+                },
+                {
+                    "id": "ffe59744-d4fc-48cb-b93e-5d5458c39684",
+                    "name": "e_proximityArriving",
+                    "actions": [],
+                    "requirements": [],
+                    "properties": [],
+                    "sourceVertexId": "0dbe5c30-0624-11ea-94f9-a5a2e9522f01",
+                    "targetVertexId": "7f93d1ad-0797-432a-a36b-e89a8d3a100e"
+                },
+                {
+                    "id": "eb09649a-bf6f-4339-876f-d505881ed56d",
+                    "name": "e_return",
+                    "actions": [],
+                    "requirements": [],
+                    "properties": [],
+                    "sourceVertexId": "7f93d1ad-0797-432a-a36b-e89a8d3a100e",
+                    "targetVertexId": "0dbe5c30-0624-11ea-94f9-a5a2e9522f01"
+                },
+                {
+                    "id": "c0350d30-6e06-4fdc-a352-f00921aa4089",
+                    "name": "e_return",
+                    "actions": [],
+                    "requirements": [],
+                    "properties": [],
+                    "sourceVertexId": "2a8e1bd3-1110-4a21-be46-2388ef8144f0",
+                    "targetVertexId": "0dbe5c30-0624-11ea-94f9-a5a2e9522f01"
+                },
+                {
+                    "id": "b188b0e5-9c8d-4760-ac8e-4d8ababdeaf8",
+                    "name": "e_return",
+                    "actions": [],
+                    "requirements": [],
+                    "properties": [],
+                    "sourceVertexId": "bf543885-6a8e-4d10-9720-92782bbf94ed",
+                    "targetVertexId": "0dbe5c30-0624-11ea-94f9-a5a2e9522f01"
+                },
+                {
+                    "id": "eb191210-1795-40a6-9370-199743e3d5c5",
+                    "name": "e_timetableRegister",
+                    "actions": [],
+                    "requirements": [],
+                    "properties": [],
+                    "sourceVertexId": "0dbe5c30-0624-11ea-94f9-a5a2e9522f01",
+                    "targetVertexId": "208854e5-4c79-4393-889b-21b4ea5cade4"
+                },
+                {
+                    "id": "0ffd124b-e60d-49c3-bb6d-0539f38353cb",
+                    "name": "e_return",
+                    "actions": [],
+                    "requirements": [],
+                    "properties": [],
+                    "sourceVertexId": "208854e5-4c79-4393-889b-21b4ea5cade4",
+                    "targetVertexId": "0dbe5c30-0624-11ea-94f9-a5a2e9522f01"
+                },
+                {
+                    "id": "669cab1b-755a-4fab-98ed-a71a8c2ae432",
+                    "name": "e_timetableArriving",
+                    "actions": [],
+                    "requirements": [],
+                    "properties": [],
+                    "sourceVertexId": "0dbe5c30-0624-11ea-94f9-a5a2e9522f01",
+                    "targetVertexId": "ff1eb730-6b59-4772-beba-563644302e73"
+                },
+                {
+                    "id": "205f3828-6cbb-4bfb-b0d7-81c5b859d714",
+                    "name": "e_return",
+                    "actions": [],
+                    "requirements": [],
+                    "properties": [],
+                    "sourceVertexId": "ff1eb730-6b59-4772-beba-563644302e73",
+                    "targetVertexId": "0dbe5c30-0624-11ea-94f9-a5a2e9522f01"
+                },
+                {
+                    "id": "9d3af59b-4b27-4a50-83d3-768b23ae9b58",
+                    "name": "e_timetableLeft",
+                    "actions": [],
+                    "requirements": [],
+                    "properties": [],
+                    "sourceVertexId": "0dbe5c30-0624-11ea-94f9-a5a2e9522f01",
+                    "targetVertexId": "8370e325-3fbf-4804-acb6-0142b25aa726"
+                },
+                {
+                    "id": "f4aba9a4-ff2d-4c07-8438-ed1a9401d943",
+                    "name": "e_return",
+                    "actions": [],
+                    "requirements": [],
+                    "properties": [],
+                    "sourceVertexId": "8370e325-3fbf-4804-acb6-0142b25aa726",
+                    "targetVertexId": "0dbe5c30-0624-11ea-94f9-a5a2e9522f01"
+                }
+            ],
+            "startElementId": "2811b8d0-0628-11ea-94f9-a5a2e9522f01"
+        }
+    ],
+    "selectedModelIndex": 0,
+    "selectedElementId": null
+}

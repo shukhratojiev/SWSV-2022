@@ -1,0 +1,33 @@
+{
+  "id": 147,
+  "serviceDefinition": {
+    "id": 15,
+    "serviceDefinition": "report-train",
+    "createdAt": "2020-10-18 13:05:06",
+    "updatedAt": "2020-10-18 13:05:06"
+  },
+  "provider": {
+    "id": 4,
+    "systemName": "its_central",
+    "address": "127.0.0.1",
+    "port": 8888,
+    "createdAt": "2020-10-18 00:21:28",
+    "updatedAt": "2020-10-18 00:21:28"
+  },
+  "serviceUri": "/itscentral/report-train",
+  "secure": "NOT_SECURE",
+  "metadata": {
+    "http-method": "POST"
+  },
+  "version": 1,
+  "interfaces": [
+    {
+      "id": 2,
+      "interfaceName": "HTTP-INSECURE-JSON",
+      "createdAt": "2020-10-18 00:17:11",
+      "updatedAt": "2020-10-18 00:17:11"
+    }
+  ],
+  "createdAt": "2020-10-27 20:17:08",
+  "updatedAt": "2020-10-27 20:17:08"
+}

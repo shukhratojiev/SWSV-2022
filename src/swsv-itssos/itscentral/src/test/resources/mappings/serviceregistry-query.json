@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/serviceregistry/query"
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "serviceregistry-query-response-orchestration-service.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

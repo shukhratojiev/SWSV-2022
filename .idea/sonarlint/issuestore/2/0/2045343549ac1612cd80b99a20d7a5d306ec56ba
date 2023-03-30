@@ -1,0 +1,12 @@
+
+k
+java:S1192b"PDefine a constant instead of duplicating this literal "Should be false" 3 times.(…Ç¤Çýÿÿÿÿ
+V	java:S125/"<This block of commented-out lines of code should be removed.(ÏíÑÛþÿÿÿÿ
+G
+java:S1602B",Remove useless curly braces around statement(ˆ‰Êúÿÿÿÿ
+Q	java:S125L"<This block of commented-out lines of code should be removed.(¯±ÂÞ
+Q	java:S125Q"<This block of commented-out lines of code should be removed.(´¡»µ
+Q	java:S125Y"<This block of commented-out lines of code should be removed.(Î€ß
+Q	java:S125h"<This block of commented-out lines of code should be removed.(ïÁ—Ë
+G
+java:S1602|",Remove useless curly braces around statement(ˆ‰Êúÿÿÿÿ
